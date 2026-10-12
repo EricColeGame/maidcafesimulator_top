@@ -1,1 +1,461 @@
-{}
+{
+  "site": {
+    "name": "Maid Cafe Simulator Wiki",
+    "shortName": "Maid Cafe Simulator",
+    "tagline": "Guías de gestión de cafetería, objetos, maids y consejos",
+    "description": "Wiki completa de Maid Cafe Simulator con guías de juego, consejos de gestión de cafetería, información de objetos, detalles de personajes y recursos útiles para nuevos jugadores.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores y para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "characters": "Personajes",
+    "items": "Objetos",
+    "progression": "Progresión",
+    "controls": "Controles",
+    "mods": "Mods"
+  },
+  "home": {
+    "meta": {
+      "title": "Maid Cafe Simulator Wiki: guía, objetos y consejos",
+      "description": "Wiki completa de Maid Cafe Simulator con guías de juego, consejos de gestión de cafetería, información de objetos, detalles de personajes y recursos útiles para nuevos jugadores."
+    },
+    "hero": {
+      "eyebrow": "Gestión acogedora de una cafetería maid",
+      "title": "Maid Cafe Simulator Wiki",
+      "description": "Maid Cafe Simulator es un acogedor simulador de gestión en primera persona en el que diriges una cafetería maid: prepara bebidas, atiende a los clientes, mejora tu cafetería y conoce a cinco maids encantadoras camino de las tres estrellas Maidchelin.",
+      "stats": [
+        "Guías de gestión de cafetería",
+        "Objetos y recetas",
+        "Personajes maid",
+        "Actualizaciones semanales"
+      ],
+      "primaryCta": "Jugar en Steam",
+      "secondaryCta": "Guía para principiantes",
+      "tertiaryCta": "Consejos de gestión de cafetería",
+      "videoLabel": "Tráiler oficial"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu recorrido por Maid Cafe Simulator",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Abre tu cafetería como es debido con el bucle de servicio básico, un plan para la primera semana y los hábitos que mantienen rentables a los nuevos dueños."
+        },
+        {
+          "number": "2",
+          "title": "Mejores maids",
+          "description": "Compara Encanto, Velocidad, Resistencia, Precisión y Ánimo para contratar y entrenar a un equipo que gane propinas en lugar de quejas."
+        },
+        {
+          "number": "3",
+          "title": "Mejores recetas",
+          "description": "Ordena el recetario desde bebidas rápidas hasta platos insignia y descubre qué desbloqueos amplían de verdad tu menú."
+        },
+        {
+          "number": "4",
+          "title": "Cómo ganar dinero rápido",
+          "description": "Convierte pedidos, propinas y reputación en ingresos constantes y reinvierte en las mejoras que suben tu beneficio diario."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Mejores maids",
+        "Desbloqueos de recetas",
+        "Mejoras de cafetería"
+      ],
+      "cards": [
+        {
+          "badge": "Principiantes",
+          "title": "Guía para principiantes",
+          "description": "El bucle de servicio básico, un plan para la primera semana y los errores que drenan el beneficio de los novatos.",
+          "href": "/guide/maid-cafe-simulator-beginner-guide"
+        },
+        {
+          "badge": "Personal",
+          "title": "Maids y contratación",
+          "description": "Todos los arquetipos de maid y los atributos que deciden quién gana propinas y quién provoca quejas.",
+          "href": "/characters/maid-cafe-simulator-maids"
+        },
+        {
+          "badge": "Menú",
+          "title": "Guía de recetas",
+          "description": "Bebidas, dulces, platos principales y recetas insignia con sus desbloqueos y perfiles de beneficio.",
+          "href": "/mechanics/maid-cafe-simulator-recipes"
+        },
+        {
+          "badge": "Mejoras",
+          "title": "Mejoras de cafetería",
+          "description": "El orden de gasto que convierte decoración, personal y equipamiento en beneficio real.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades"
+        },
+        {
+          "badge": "Dinero",
+          "title": "Cómo ganar dinero rápido",
+          "description": "De dónde vienen los ingresos, cómo escalan las propinas y los hábitos diarios que hacen crecer tu cafetería.",
+          "href": "/progression/maid-cafe-simulator-money"
+        },
+        {
+          "badge": "Controles",
+          "title": "Controles y atajos",
+          "description": "Asignaciones predeterminadas de teclado y ratón, consejos para reasignar y solución a problemas comunes de entrada.",
+          "href": "/controls/maid-cafe-simulator-controls"
+        },
+        {
+          "badge": "Historia",
+          "title": "Guía de finales",
+          "description": "Finales verdadero, de ruta, en solitario, neutral y de fracaso, y los flags que deciden tu desenlace.",
+          "href": "/progression/maid-cafe-simulator-endings"
+        },
+        {
+          "badge": "Progresión",
+          "title": "Niveles de cafetería",
+          "description": "Cómo el nivel y la reputación de la cafetería condicionan recetas, mejoras y volumen de clientes.",
+          "href": "/progression/maid-cafe-simulator-levels"
+        },
+        {
+          "badge": "Lanzamiento",
+          "title": "Fecha de lanzamiento",
+          "description": "Detalles de plataforma y lanzamiento, y dónde se publican primero los anuncios oficiales.",
+          "href": "/guide/maid-cafe-simulator-release-date"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Maid Cafe Simulator?",
+      "paragraphs": [
+        "Maid Cafe Simulator es un acogedor simulador de gestión de cafetería en primera persona para PC. Diriges una cafetería maid temática desde detrás del mostrador: recibes y acomodas a los clientes, tomas pedidos, preparas bebidas y emplatas postres, y los sirves lo bastante rápido para ganar propinas y reseñas excelentes. Entre turnos repones ingredientes, contratas y entrenas maids y reinviertes tus ganancias en la cafetería.",
+        "La progresión se basa en la reputación. Los clientes satisfechos dejan reseñas que aumentan el tráfico, y el tráfico solo merece la pena si tu cocina y tu sala pueden seguir el ritmo, así que las mejoras siguen el cuello de botella y no el precio. Tus maids determinan gran parte del resultado mediante Encanto, Velocidad, Resistencia, Precisión y Ánimo, mientras el recetario crece de bebidas sencillas a platos insignia a medida que sube el nivel de tu cafetería."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Género",
+          "value": "Simulador de gestión de cafetería"
+        },
+        {
+          "label": "Perspectiva",
+          "value": "Primera persona"
+        },
+        {
+          "label": "Atributos de maid",
+          "value": "Encanto, Velocidad, Precisión"
+        },
+        {
+          "label": "Tipos de menú",
+          "value": "Bebidas, dulces, principales"
+        },
+        {
+          "label": "Bucle principal",
+          "value": "Servir, propina, mejorar"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la Wiki de Maid Cafe Simulator",
+      "description": "Explora los sistemas de Maid Cafe Simulator que más importan, desde la iniciación para principiantes y la contratación de maids hasta los desbloqueos de recetas, las mejoras de cafetería, el dinero, las rutas de historia y el seguimiento de actualizaciones.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Maid Cafe Simulator",
+          "description": "Un recorrido paso a paso del bucle básico de cafetería: tomar pedidos, preparar comida y bebidas, atender a los clientes, mejorar instalaciones y asentar una rutina inicial estable.",
+          "href": "/guide/maid-cafe-simulator-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Atiende tú mismo todas las mesas el primer día y anota qué paso se ralentiza antes"
+            },
+            {
+              "label": "2",
+              "detail": "Contrata a un camarero fiable y reduce el menú a un núcleo pequeño y rápido"
+            },
+            {
+              "label": "3",
+              "detail": "Mejora la única estación que se atasca durante la hora punta del almuerzo"
+            },
+            {
+              "label": "4",
+              "detail": "Ahorra suficiente dinero para cubrir los sueldos y reponer todos los ingredientes"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de maids de Maid Cafe Simulator",
+          "description": "Conoce los arquetipos de maid, entiende los atributos que hay detrás de la contratación y aprende cómo Encanto, Velocidad, Resistencia, Precisión y Ánimo moldean el servicio, las propinas y la reputación.",
+          "href": "/characters/maid-cafe-simulator-maids",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Encanto",
+              "detail": "Saludos, charla y peticiones de fotos que multiplican las propinas"
+            },
+            {
+              "label": "Velocidad",
+              "detail": "Resolución de pedidos y rotación de mesas en la hora punta"
+            },
+            {
+              "label": "Resistencia",
+              "detail": "Cuánto tiempo una maid se mantiene concentrada antes de que llegue la fatiga"
+            },
+            {
+              "label": "Precisión",
+              "detail": "Menos pedidos erróneos y platos caídos protegen tu valoración por estrellas"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de recetas de Maid Cafe Simulator",
+          "description": "El mapa completo del menú: bebidas, dulces horneados, principales salados y platos insignia, además de cómo los desbloqueos, la preparación y los tiempos se traducen en beneficio.",
+          "href": "/mechanics/maid-cafe-simulator-recipes",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Platos insignia como el arroz con tortilla decorado y los parfaits de escaparate, las opciones de mayor margen"
+            },
+            {
+              "label": "A",
+              "detail": "Principales salados como arroz con tortilla, curry, pasta y sándwiches que sacian y desbloquean combos"
+            },
+            {
+              "label": "B",
+              "detail": "Dulces horneados como tartas, galletas y tartaletas que combinan con bebidas y suben el valor del pedido"
+            },
+            {
+              "label": "C",
+              "detail": "Bebidas rápidas como té, café filtrado y floats: poco margen, pero mucho volumen y servicio veloz"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de mejoras de cafetería de Maid Cafe Simulator",
+          "description": "Cómo la ampliación de la cafetería, las mejoras de equipamiento y las mejoras de instalaciones rinden de verdad, y el orden de gasto que evita que un local lleno pierda dinero.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Resuelve primero el cuello de botella actual, ya sea una estación, un paso bloqueado o una contratación extra"
+            },
+            {
+              "label": "2",
+              "detail": "Mantén un colchón de ingredientes y reposición para que las horas punta nunca se queden secas"
+            },
+            {
+              "label": "3",
+              "detail": "Entrena al personal que ya tienes antes de sustituirlo por nuevas contrataciones"
+            },
+            {
+              "label": "4",
+              "detail": "Amplía asientos y añade mejoras decorativas solo cuando lo básico esté sólido"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de logros de Maid Cafe Simulator",
+          "description": "Sigue los objetivos que completan una partida, desde llenar la galería de la historia y mantener una valoración por estrellas hasta terminar cada ruta de personaje.",
+          "href": "/progression/maid-cafe-simulator-unlocks",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Galería",
+              "detail": "Desbloquea cada escena y rama de final para completar la galería de la historia"
+            },
+            {
+              "label": "Estrellas",
+              "detail": "Mantén una buena valoración por estrellas contentando a los clientes en cada turno"
+            },
+            {
+              "label": "Rutas",
+              "detail": "Termina cada ruta de personaje para completar la lista de logros"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Trucos y consejos de Maid Cafe Simulator",
+          "description": "Hábitos prácticos de gestión para personal, precios, reposición y rotación de mesas, pensados para quienes quieren un día más estable y rentable.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-management",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Antes de abrir",
+              "detail": "Repón ingredientes y asigna los turnos de las maids antes de abrir las puertas"
+            },
+            {
+              "label": "Hora punta",
+              "detail": "Prioriza la velocidad sobre la perfección para que las mesas sigan rotando"
+            },
+            {
+              "label": "Cierre",
+              "detail": "Revisa las ventas, paga los sueldos y programa la siguiente mejora antes de parar"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guía de historia de Maid Cafe Simulator",
+          "description": "Cómo encajan los capítulos de la historia, los eventos de vínculo con las maids y los flags de ruta, y qué separa un final verdadero de uno neutral o de fracaso.",
+          "href": "/progression/maid-cafe-simulator-endings",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Verdadero",
+              "detail": "Afecto alto, una cafetería próspera y los flags correctos llevan al final verdadero"
+            },
+            {
+              "label": "Ruta",
+              "detail": "El afecto máximo con un solo personaje desbloquea su desenlace propio"
+            },
+            {
+              "label": "Solitario",
+              "detail": "Una cafetería fuerte con poco romance lleva al final de carrera en solitario"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guía de actualizaciones de Maid Cafe Simulator",
+          "description": "Dónde seguir los anuncios oficiales, los parches y el contenido nuevo, y qué cambia cada tipo de actualización en una partida existente.",
+          "href": "/guide/maid-cafe-simulator-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Noticias",
+              "detail": "Los diarios de desarrollo y anuncios aparecen primero en la página de la tienda y el centro comunitario"
+            },
+            {
+              "label": "Demo",
+              "detail": "Una demo jugable muestra los primeros turnos antes del lanzamiento completo"
+            },
+            {
+              "label": "Parche",
+              "detail": "Los ajustes de equilibrio y las correcciones llegan con actualizaciones periódicas de la tienda"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Maid Cafe Simulator de los nuevos dueños de cafetería.",
+      "items": [
+        {
+          "question": "¿Qué es Maid Cafe Simulator?",
+          "answer": "Maid Cafe Simulator es un acogedor simulador de gestión en primera persona en el que diriges una cafetería maid temática. Acomodas a los clientes, tomas pedidos, preparas bebidas y postres, atiendes las mesas, ganas propinas, repones ingredientes, contratas y entrenas maids y mejoras la cafetería a medida que crece tu reputación."
+        },
+        {
+          "question": "¿Qué maid debería contratar primero en Maid Cafe Simulator?",
+          "answer": "Contrata por el atributo más alto, no por la media. Una Anfitriona Alegre con mucho Encanto encaja en la entrada, una Perfeccionista Tímida con buena Precisión encaja en las mesas VIP, y un camarero fiable en los primeros días suele ser la forma más barata de aumentar el rendimiento."
+        },
+        {
+          "question": "¿Cómo gano dinero rápido en Maid Cafe Simulator?",
+          "answer": "La velocidad de servicio mueve el dinero en Maid Cafe Simulator más que cualquier compra concreta. Mantén un menú ajustado para que los pedidos salgan rápido, repón antes de la hora punta para no perder ventas y deja que las propinas y la reputación se acumulen en lugar de buscar un gran pago único."
+        },
+        {
+          "question": "¿Qué debería mejorar primero en Maid Cafe Simulator?",
+          "answer": "Resuelve primero el cuello de botella actual, ya sea una estación lenta, un paso bloqueado o una contratación extra. Después, crea un colchón de ingredientes, entrena a tu personal actual y solo entonces amplía asientos y añade mejoras decorativas."
+        },
+        {
+          "question": "¿Maid Cafe Simulator tiene varios finales?",
+          "answer": "Sí. Los finales de Maid Cafe Simulator suelen dividirse en un final verdadero, finales de ruta de personaje, un final de carrera en solitario, un desenlace neutral y finales de fracaso, y el resultado se comprueba en puntos fijos hacia el final de la partida, no en la última semana."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para llevar tu cafetería maid?",
+      "description": "Desde tu primer turno tras el mostrador hasta las tres estrellas Maidchelin, nuestra wiki comunitaria te acompaña con guías de Maid Cafe Simulator gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías para principiantes de Maid Cafe Simulator",
+    "overviewDescription": "Empieza con fuerza con las guías para principiantes de Maid Cafe Simulator: primeros turnos, personal, precios y las mejoras tempranas que mantienen rentable tu cafetería."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de cafetería de Maid Cafe Simulator",
+    "overviewDescription": "Aprende cómo encajan las mecánicas de cafetería de Maid Cafe Simulator: recetas, pedidos, contratación, habilidades de las maids y las mejoras que escalan tus ingresos diarios."
+  },
+  "characters": {
+    "overviewTitle": "Personajes y maids de Maid Cafe Simulator",
+    "overviewDescription": "Conoce a todos los personajes y arquetipos de maid de Maid Cafe Simulator, desde maids gato hasta personal semihumano, y aprende a reclutarlos, organizarlos y hacerte su amigo."
+  },
+  "items": {
+    "overviewTitle": "Menú y objetos de Maid Cafe Simulator",
+    "overviewDescription": "Planifica tu menú de Maid Cafe Simulator con guías de bebidas, comida, decoración y objetos de cafetería que suben precios, reseñas y satisfacción del cliente."
+  },
+  "progression": {
+    "overviewTitle": "Progresión en Maid Cafe Simulator",
+    "overviewDescription": "Sigue la progresión en Maid Cafe Simulator desde tus primeras monedas hasta los desbloqueos tardíos, incluyendo formas de ganar dinero, niveles, modo difícil y todos los finales."
+  },
+  "controls": {
+    "overviewTitle": "Controles y cooperativo de Maid Cafe Simulator",
+    "overviewDescription": "Configura los controles, atajos, gráficos y cooperativo de Maid Cafe Simulator para moverte entre mostrador, cocina y mesas sin pelearte con la cámara."
+  },
+  "mods": {
+    "overviewTitle": "Mods de Maid Cafe Simulator",
+    "overviewDescription": "Explora los mods de Maid Cafe Simulator y aprende a instalar, gestionar y actualizar de forma segura el contenido de la comunidad para tu cafetería."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "updated": "Actualizado",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!",
+    "popularGuides": "Guías populares",
+    "beginnerGuide": "Guía para principiantes",
+    "recipeGuide": "Guía de recetas",
+    "moneyGuide": "Guía de dinero"
+  },
+  "footer": {
+    "aboutTitle": "Maid Cafe Simulator Wiki",
+    "about": "Maid Cafe Simulator Wiki es un centro de guías independiente hecho por fans que cubre la gestión de la cafetería, recetas de bebidas, personajes maid, mejoras y conocimiento esencial del juego tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Maid Cafe Simulator Wiki. Sin afiliación con Accelix ni SCON.",
+    "description": "Acogedor simulador de gestión de cafetería maid en primera persona en Steam. Dirige la cafetería, atiende a los clientes y persigue las tres estrellas Maidchelin.",
+    "playGame": "Jugar en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "officialTwitter": "X (Twitter) oficial",
+    "officialSite": "Sitio oficial",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "maidGuides": "Guías de maids",
+    "recipeGuides": "Guías de recetas",
+    "moneyGuides": "Guías de dinero"
+  }
+}

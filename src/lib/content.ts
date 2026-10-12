@@ -257,14 +257,40 @@ const GROUP_TITLES_JA: Record<string, string> = {
   mods: "MOD",
 };
 
+// 德文分组标题映射
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Einsteiger-Guides",
+  mechanics: "Café-Mechaniken",
+  characters: "Charaktere & Maids",
+  items: "Menü & Items",
+  progression: "Fortschritt",
+  controls: "Steuerung & Koop",
+  mods: "Mods",
+};
+
+// 西班牙文分组标题映射
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Guías para principiantes",
+  mechanics: "Mecánicas de cafetería",
+  characters: "Personajes y maids",
+  items: "Menú y objetos",
+  progression: "Progresión",
+  controls: "Controles y cooperativo",
+  mods: "Mods",
+};
+
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
   ja: GROUP_TITLES_JA,
+  de: GROUP_TITLES_DE,
+  es: GROUP_TITLES_ES,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
   ja: "一覧",
+  de: "Übersicht",
+  es: "Resumen",
 };
 
 // 分组排序顺序

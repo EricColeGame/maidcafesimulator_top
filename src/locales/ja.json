@@ -1,1 +1,461 @@
-{}
+{
+  "site": {
+    "name": "Maid Cafe Simulator Wiki",
+    "shortName": "Maid Cafe Simulator",
+    "tagline": "カフェ経営ガイド・アイテム・メイド・攻略のヒント",
+    "description": "Maid Cafe Simulator Wiki の完全ガイド。ゲーム攻略、カフェ経営のコツ、アイテム情報、キャラクター解説、初心者に役立つ情報をまとめています。",
+    "legalNotice": "非公式のファンウィキです。プレイヤーがプレイヤーのために作っています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替",
+    "guide": "ガイド",
+    "mechanics": "ゲームシステム",
+    "characters": "キャラクター",
+    "items": "アイテム",
+    "progression": "進行",
+    "controls": "操作方法",
+    "mods": "MOD"
+  },
+  "home": {
+    "meta": {
+      "title": "Maid Cafe Simulator Wiki - 攻略・アイテム・ヒント",
+      "description": "Maid Cafe Simulator Wiki の完全ガイド。ゲーム攻略、カフェ経営のコツ、アイテム情報、キャラクター解説、初心者に役立つ情報をまとめています。"
+    },
+    "hero": {
+      "eyebrow": "ほのぼのメイドカフェ経営",
+      "title": "Maid Cafe Simulator Wiki",
+      "description": "Maid Cafe Simulator は、メイドカフェを切り盛りするほのぼの一人称経営シミュレーションです。ドリンクを作り、お客さんをもてなし、カフェを強化し、5人の魅力的なメイドと交流しながら三ツ星メイドシェランを目指しましょう。",
+      "stats": [
+        "カフェ経営ガイド",
+        "アイテムとレシピ",
+        "メイドキャラクター",
+        "毎週更新"
+      ],
+      "primaryCta": "Steam でプレイ",
+      "secondaryCta": "初心者ガイド",
+      "tertiaryCta": "カフェ経営のコツ",
+      "videoLabel": "公式トレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Maid Cafe Simulator 攻略の道のり",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "基本のサービスループ、最初の1週間の計画、そして新人オーナーの利益を食い潰す悪いクセを押さえて、カフェを正しくオープンしましょう。"
+        },
+        {
+          "number": "2",
+          "title": "おすすめメイド",
+          "description": "魅力・速度・スタミナ・正確さ・機嫌を比較して、クレームではなくチップを稼ぐフロアを採用・育成しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "おすすめレシピ",
+          "description": "簡単なドリンクから看板料理まで料理本を整理し、どのレシピ解放が本当にメニューを伸ばすのかを学びましょう。"
+        },
+        {
+          "number": "4",
+          "title": "効率よく稼ぐ方法",
+          "description": "注文・チップ・評判を安定した収入に変え、日々の利益を押し上げる強化に再投資しましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "おすすめメイド",
+        "レシピ解放",
+        "カフェ強化"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "基本のサービスループ、最初の1週間の計画、そして新人の利益を奪うミスを解説します。",
+          "href": "/guide/maid-cafe-simulator-beginner-guide"
+        },
+        {
+          "badge": "採用",
+          "title": "メイドと採用",
+          "description": "メイドの全タイプと、チップを稼ぐ人・クレームを生む人を分けるステータスを紹介します。",
+          "href": "/characters/maid-cafe-simulator-maids"
+        },
+        {
+          "badge": "メニュー",
+          "title": "レシピガイド",
+          "description": "ドリンク、スイーツ、メイン、看板料理を解放条件と利益率つきで解説します。",
+          "href": "/mechanics/maid-cafe-simulator-recipes"
+        },
+        {
+          "badge": "強化",
+          "title": "カフェ強化",
+          "description": "内装・人員・設備を本当の利益に変える出費の順番を解説します。",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades"
+        },
+        {
+          "badge": "お金",
+          "title": "効率よく稼ぐ方法",
+          "description": "収入源、チップの伸び方、カフェを成長させる日々の習慣をまとめます。",
+          "href": "/progression/maid-cafe-simulator-money"
+        },
+        {
+          "badge": "操作",
+          "title": "操作とキー割り当て",
+          "description": "既定のキーボード・マウス操作、再割り当てのコツ、入力トラブルの対処法を紹介します。",
+          "href": "/controls/maid-cafe-simulator-controls"
+        },
+        {
+          "badge": "ストーリー",
+          "title": "エンディングガイド",
+          "description": "トゥルー・ルート・ソロ・中立・バッドエンドと、結末を決めるフラグを解説します。",
+          "href": "/progression/maid-cafe-simulator-endings"
+        },
+        {
+          "badge": "進行",
+          "title": "カフェレベル",
+          "description": "カフェレベルと評判が、新しいレシピ・強化・来客数をどう左右するかを解説します。",
+          "href": "/progression/maid-cafe-simulator-levels"
+        },
+        {
+          "badge": "リリース",
+          "title": "発売日",
+          "description": "対応プラットフォームとローンチ情報、公式発表が最初に届く場所をまとめます。",
+          "href": "/guide/maid-cafe-simulator-release-date"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Maid Cafe Simulator とは？",
+      "paragraphs": [
+        "Maid Cafe Simulator は、PC 向けのほのぼの一人称カフェ経営シミュレーションです。カウンター越しにテーマカフェを切り盛りし、お客さんを案内して席に通し、注文を取ってドリンクを淹れ、デザートを盛り付け、チップと高評価を得られるよう素早く提供します。シフトの合間には食材を補充し、メイドを雇って育て、稼いだお金をカフェに再投資します。",
+        "進行の軸は評判です。満足したお客さんが残すレビューが来客数を増やし、来客数はキッチンとフロアが追いついてこそ意味があります。だからこそ強化は値段ではなくボトルネックに合わせて選びます。その成果の多くを左右するのはメイドの魅力・速度・スタミナ・正確さ・機嫌で、カフェのレベルが上がるにつれて料理本も簡単なドリンクから看板料理へと広がっていきます。"
+      ],
+      "stats": [
+        {
+          "label": "プラットフォーム",
+          "value": "PC（Steam）"
+        },
+        {
+          "label": "ジャンル",
+          "value": "カフェ経営シミュレーション"
+        },
+        {
+          "label": "視点",
+          "value": "一人称"
+        },
+        {
+          "label": "メイドの能力",
+          "value": "魅力・速度・正確さ"
+        },
+        {
+          "label": "メニュー種別",
+          "value": "ドリンク・スイーツ・メイン"
+        },
+        {
+          "label": "基本ループ",
+          "value": "提供・チップ・強化"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Maid Cafe Simulator Wiki を探索",
+      "description": "初心者向けの導入からメイドの採用、レシピ解放、カフェ強化、稼ぎ方、ストーリールート、アップデート追跡まで、重要なシステムをまとめて紹介します。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Maid Cafe Simulator 初心者ガイド",
+          "description": "注文取り、料理とドリンクの準備、接客、設備の強化、安定した序盤ルーティンの確立まで、基本的なカフェループを順を追って解説します。",
+          "href": "/guide/maid-cafe-simulator-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "初日はすべてのテーブルを自分で回し、どの工程が最初に詰まるか記録する"
+            },
+            {
+              "label": "2",
+              "detail": "信頼できるホールスタッフを1人雇い、メニューを小さく速い構成に絞る"
+            },
+            {
+              "label": "3",
+              "detail": "ランチのピークに詰まる工程を1つだけ強化する"
+            },
+            {
+              "label": "4",
+              "detail": "給料と食材の補充をまかなえるだけの資金を貯める"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Maid Cafe Simulator メイドガイド",
+          "description": "メイドのタイプを知り、採用の裏側にあるステータスを理解し、魅力・速度・スタミナ・正確さ・機嫌が接客・チップ・評判をどう形作るかを学びます。",
+          "href": "/characters/maid-cafe-simulator-maids",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "魅力",
+              "detail": "挨拶や雑談、撮影リクエストでチップが倍増する"
+            },
+            {
+              "label": "速度",
+              "detail": "ランチのピークにおける注文処理とテーブル回転"
+            },
+            {
+              "label": "スタミナ",
+              "detail": "疲労がたまるまでメイドがどれだけ集中を保てるか"
+            },
+            {
+              "label": "正確さ",
+              "detail": "ミスや皿の落下を減らして星評価を守る"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Maid Cafe Simulator レシピガイド",
+          "description": "ドリンク、焼き菓子、おかずメイン、看板料理までのメニュー全体図と、レシピ解放・下準備・時間帯が利益に変わる仕組みを解説します。",
+          "href": "/mechanics/maid-cafe-simulator-recipes",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "デコレーションオムライスや見栄えのするパフェなど、利益率が最も高い看板料理"
+            },
+            {
+              "label": "A",
+              "detail": "オムライス、カレー、パスタ、サンドイッチなど、満足度を満たしコンボを解放するおかずメイン"
+            },
+            {
+              "label": "B",
+              "detail": "ケーキ、クッキー、タルトなど、ドリンクと合わせて注文単価を上げる焼き菓子"
+            },
+            {
+              "label": "C",
+              "detail": "紅茶、ドリップコーヒー、フロートなど、利益は薄いが回転が速いドリンク"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Maid Cafe Simulator カフェ強化ガイド",
+          "description": "カフェの拡張、設備の強化、施設の改善が実際にどう効くのか、そして忙しい店が赤字にならないための出費の順番を解説します。",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "工程・動線・追加採用のどれであれ、まず現在のボトルネックを解消する"
+            },
+            {
+              "label": "2",
+              "detail": "ピーク時に切らさないよう、食材と補充の余裕を確保する"
+            },
+            {
+              "label": "3",
+              "detail": "新しい人を雇う前に、今いるスタッフを育成する"
+            },
+            {
+              "label": "4",
+              "detail": "基本が固まってから席の拡張や装飾の強化に手を出す"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Maid Cafe Simulator 実績ガイド",
+          "description": "ストーリーギャラリーの埋め立てや星評価の維持から各キャラのルート完走まで、1周を締めくくる目標を追います。",
+          "href": "/progression/maid-cafe-simulator-unlocks",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ギャラリー",
+              "detail": "すべてのシーンとエンディング分岐を解放してストーリーギャラリーを完成させる"
+            },
+            {
+              "label": "星",
+              "detail": "毎シフトお客さんを満足させて高い星評価を維持する"
+            },
+            {
+              "label": "ルート",
+              "detail": "各キャラのルートを完走して実績リストを埋める"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Maid Cafe Simulator のコツと裏技",
+          "description": "人員配置・価格設定・補充・回転率を保つ実践的な経営習慣を、より安定して利益を出す1日を目指すプレイヤー向けに紹介します。",
+          "href": "/mechanics/maid-cafe-simulator-cafe-management",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "開店前",
+              "detail": "開店前に食材を補充し、メイドのシフトを割り当てる"
+            },
+            {
+              "label": "ピーク",
+              "detail": "ピーク時は完璧さより速さを優先して回転を保つ"
+            },
+            {
+              "label": "閉店",
+              "detail": "売上を確認し、給料を支払い、次の強化を予約してから終える"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Maid Cafe Simulator ストーリーガイド",
+          "description": "ストーリーの章、メイドとの絆イベント、ルート分岐がどう噛み合うのか、トゥルーエンドと中立・バッドエンドを分けるものは何かを解説します。",
+          "href": "/progression/maid-cafe-simulator-endings",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "トゥルー",
+              "detail": "高い好感度と繁盛するカフェ、そして正しいフラグでトゥルーエンドに到達する"
+            },
+            {
+              "label": "ルート",
+              "detail": "1人のキャラの好感度を最大にすると専用の結末が解放される"
+            },
+            {
+              "label": "ソロ",
+              "detail": "カフェは好調でも恋愛が薄いとソロキャリアエンドになる"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Maid Cafe Simulator アップデートガイド",
+          "description": "公式発表・パッチ・新コンテンツをどこで追うか、それぞれの更新が既存セーブに何をもたらすかを解説します。",
+          "href": "/guide/maid-cafe-simulator-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "ニュース",
+              "detail": "開発ブログや告知はまずストアページとコミュニティハブに掲載される"
+            },
+            {
+              "label": "体験版",
+              "detail": "製品版の前に、序盤のシフトを遊べる体験版が用意されている"
+            },
+            {
+              "label": "パッチ",
+              "detail": "バランス調整や修正は定期的なストア更新で配信される"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "新人カフェオーナーからよく寄せられる Maid Cafe Simulator の質問に手早く回答します。",
+      "items": [
+        {
+          "question": "Maid Cafe Simulator とは何ですか？",
+          "answer": "Maid Cafe Simulator は、テーマ付きのメイドカフェを経営するほのぼの一人称経営シミュレーションです。お客さんを席に案内し、注文を取り、ドリンクやデザートを用意して提供し、チップを稼ぎ、食材を補充し、メイドを雇って育て、評判の成長に合わせてカフェを強化していきます。"
+        },
+        {
+          "question": "Maid Cafe Simulator で最初に雇うべきメイドは？",
+          "answer": "平均値ではなく突出した能力で選びましょう。魅力が高い明るい案内役は入口向き、正確さが高い内気な完璧主義者は VIP 席向きです。序盤数日は、信頼できるサーバーを1人雇うのが最も安く処理能力を上げる方法です。"
+        },
+        {
+          "question": "Maid Cafe Simulator で効率よく稼ぐには？",
+          "answer": "Maid Cafe Simulator の収入は、どんな買い物よりも接客速度に左右されます。メニューを絞って注文を素早くさばき、ピーク前に補充して売り逃しを防ぎ、一度に大金を狙うのではなくチップと評判を複利で伸ばしましょう。"
+        },
+        {
+          "question": "Maid Cafe Simulator で最初に強化すべきものは？",
+          "answer": "まず現在のボトルネックを解消しましょう。遅い工程、ふさがった動線、追加採用のいずれかです。その後は食材の余裕を確保し、既存スタッフを育成し、それから席の拡張や装飾の強化に進みます。"
+        },
+        {
+          "question": "Maid Cafe Simulator には複数のエンディングがありますか？",
+          "answer": "はい。Maid Cafe Simulator のエンディングは通常、トゥルーエンド、キャラ個別ルート、ソロキャリア、中立、そしてバッドエンドに分かれ、判定は最終週ではなく終盤の決まった地点で行われます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "あなたのメイドカフェを開店しませんか？",
+      "description": "カウンターでの最初のシフトから三ツ星メイドシェランまで、当コミュニティウィキが無料で最新の Maid Cafe Simulator 攻略をお届けします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steam でプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Maid Cafe Simulator 初心者ガイド",
+    "overviewDescription": "最初のシフト、人員配置、価格設定、カフェを黒字に保つ序盤の強化まで、Maid Cafe Simulator の初心者ガイドで好スタートを切りましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Maid Cafe Simulator カフェの仕組み",
+    "overviewDescription": "レシピ、注文、採用、メイドのスキル、日々の売上を伸ばす強化など、Maid Cafe Simulator のカフェの仕組みがどう連動するかを学びましょう。"
+  },
+  "characters": {
+    "overviewTitle": "Maid Cafe Simulator キャラクターとメイド",
+    "overviewDescription": "猫メイドから亜人スタッフまで、Maid Cafe Simulator のすべてのキャラクターとメイドのタイプを紹介し、採用・シフト・交流の方法を解説します。"
+  },
+  "items": {
+    "overviewTitle": "Maid Cafe Simulator メニューとアイテム",
+    "overviewDescription": "ドリンク、フード、装飾、価格やレビュー、満足度を高めるカフェアイテムのガイドで、Maid Cafe Simulator のメニューを計画しましょう。"
+  },
+  "progression": {
+    "overviewTitle": "Maid Cafe Simulator の進行",
+    "overviewDescription": "最初のコインから終盤の解放まで、稼ぎ方、レベル、ハードモード、すべてのエンディングを含めて Maid Cafe Simulator の進行を追いましょう。"
+  },
+  "controls": {
+    "overviewTitle": "Maid Cafe Simulator の操作と協力プレイ",
+    "overviewDescription": "Maid Cafe Simulator の操作、キー割り当て、グラフィック、協力プレイを設定し、カメラに手こずらずカウンター・キッチン・テーブルを行き来しましょう。"
+  },
+  "mods": {
+    "overviewTitle": "Maid Cafe Simulator の MOD",
+    "overviewDescription": "Maid Cafe Simulator の MOD を探し、カフェ向けのコミュニティコンテンツを導入・管理・安全に更新する方法を学びましょう。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "updated": "更新日",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。また後でチェックしてください！",
+    "popularGuides": "人気ガイド",
+    "beginnerGuide": "初心者ガイド",
+    "recipeGuide": "レシピガイド",
+    "moneyGuide": "稼ぎ方ガイド"
+  },
+  "footer": {
+    "aboutTitle": "Maid Cafe Simulator Wiki",
+    "about": "Maid Cafe Simulator Wiki は、カフェ経営、ドリンクのレシピ、メイドキャラクター、強化、そして新旧のプレイヤーに役立つゲーム知識を扱う、ファン制作の独立系ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 Maid Cafe Simulator Wiki. Accelix および SCON とは無関係です。",
+    "description": "Steam のほのぼの一人称メイドカフェ経営シミュレーション。カフェを切り盛りし、お客さんをもてなし、三ツ星メイドシェランを目指しましょう。",
+    "playGame": "Steam でプレイ",
+    "officialDiscord": "公式 Discord",
+    "officialYoutube": "公式 YouTube",
+    "officialTwitter": "公式 X（Twitter）",
+    "officialSite": "公式サイト",
+    "beginnerGuide": "初心者ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "maidGuides": "メイドガイド",
+    "recipeGuides": "レシピガイド",
+    "moneyGuides": "稼ぎ方ガイド"
+  }
+}
