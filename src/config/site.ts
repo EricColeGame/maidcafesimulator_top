@@ -19,18 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Maid Cafe Simulator Wiki",
+  shortName: "Maid Cafe Simulator",
+  logoText: "MC",
+  tagline: "Cafe Management Guides, Items, Maids & Tips",
+  description: "Complete Maid Cafe Simulator Wiki with gameplay guides, cafe management tips, item information, character details, and useful resources for new players.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://maidcafesimulator.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://maidcafesimulator.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3232690/Maid_Cafe_Simulator/",
+  heroVideoId: "tXH6W_kfQi4", // Maid Cafe Simulator - Official Trailer (Accelix)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/@accelix-official",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
