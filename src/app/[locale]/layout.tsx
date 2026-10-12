@@ -35,8 +35,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: {
+      type: "website",
+      locale,
+      url: siteUrl,
+      siteName: siteConfig.name,
+      title: "Maid Cafe Simulator Wiki",
+      description: siteConfig.description,
+      images: [{ url: image, width: 1438, height: 810, alt: "Maid Cafe Simulator" }],
+    },
+    twitter: { card: "summary_large_image", title: "Maid Cafe Simulator Wiki", description: siteConfig.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -50,9 +58,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    alternateName: siteConfig.shortName,
     url: siteUrl,
+    description: siteConfig.description,
     logo: `${siteUrl}/android-chrome-512x512.png`,
     image: `${siteUrl}/images/hero.webp`,
+    sameAs: [siteConfig.social?.website, siteConfig.social?.youtube, siteConfig.social?.twitter].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

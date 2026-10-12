@@ -9,6 +9,7 @@ export interface SiteConfig {
   gameUrl?: string;
   heroVideoId?: string;
   social?: {
+    website?: string;
     discord?: string;
     youtube?: string;
     twitter?: string;
@@ -27,9 +28,11 @@ export const siteConfig: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://maidcafesimulator.top",
   supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://maidcafesimulator.top").hostname.replace(/^www\./, "")}`,
   gameUrl: "https://store.steampowered.com/app/3232690/Maid_Cafe_Simulator/",
-  heroVideoId: "tXH6W_kfQi4", // Maid Cafe Simulator - Official Trailer (Accelix)
+  heroVideoId: "tXH6W_kfQi4", // Maid Cafe Simulator - Official Release Trailer (Accelix)
   social: {
+    website: "https://accelixgames.com/",
     youtube: "https://www.youtube.com/@accelix-official",
+    twitter: "https://x.com/AccelixGames",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
