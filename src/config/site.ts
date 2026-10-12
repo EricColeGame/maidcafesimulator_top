@@ -1,3 +1,5 @@
+import { routing } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -34,6 +36,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@accelix-official",
     twitter: "https://x.com/AccelixGames",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: routing.locales,
   defaultLocale: "en",
 };
