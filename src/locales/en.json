@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "items": "Items",
+    "progression": "Progression",
+    "controls": "Controls",
+    "mods": "Mods"
   },
   "home": {
     "meta": {
@@ -385,12 +392,37 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Maid Cafe Simulator Beginner Guides",
+    "overviewDescription": "Start strong with Maid Cafe Simulator beginner guides covering the first shifts, staffing, pricing, and the early upgrades that keep your cafe profitable."
+  },
+  "mechanics": {
+    "overviewTitle": "Maid Cafe Simulator Cafe Mechanics",
+    "overviewDescription": "Learn how Maid Cafe Simulator cafe mechanics fit together: recipes, orders, hiring, maid skills, and the upgrades that scale your daily takings."
+  },
+  "characters": {
+    "overviewTitle": "Maid Cafe Simulator Characters & Maids",
+    "overviewDescription": "Meet every Maid Cafe Simulator character and maid archetype, from cat maids to demihuman staff, and learn how to recruit, schedule, and befriend them."
+  },
+  "items": {
+    "overviewTitle": "Maid Cafe Simulator Menu & Items",
+    "overviewDescription": "Plan your Maid Cafe Simulator menu with guides to drinks, food, decorations, and cafe items that raise prices, reviews, and customer satisfaction."
+  },
+  "progression": {
+    "overviewTitle": "Maid Cafe Simulator Progression",
+    "overviewDescription": "Track Maid Cafe Simulator progression from your first coins to late-game unlocks, including money-making, levels, hard mode, and every ending."
+  },
+  "controls": {
+    "overviewTitle": "Maid Cafe Simulator Controls & Co-op",
+    "overviewDescription": "Set up Maid Cafe Simulator controls, keybinds, graphics, and co-op so you can move between counter, kitchen, and tables without fighting the camera."
+  },
+  "mods": {
+    "overviewTitle": "Maid Cafe Simulator Mods",
+    "overviewDescription": "Browse Maid Cafe Simulator mods and learn how to install, manage, and safely update community content for your cafe."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -401,7 +433,11 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "popularGuides": "Popular Guides",
+    "beginnerGuide": "Beginner Guide",
+    "recipeGuide": "Recipe Guide",
+    "moneyGuide": "Money Guide"
   },
   "footer": {
     "aboutTitle": "Maid Cafe Simulator Wiki",
@@ -417,10 +453,10 @@
     "officialTwitter": "Official X (Twitter)",
     "officialSite": "Official Site",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "maidGuides": "Maid Guides",
+    "recipeGuides": "Recipe Guides",
+    "moneyGuides": "Money Guides"
   }
 }
