@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Open your cafe the right way with the core service loop, a first-week plan, and the bottleneck habits that keep new owners profitable."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Maids",
+          "description": "Compare Charm, Speed, Stamina, Accuracy and Mood so you hire and train a floor that earns tips instead of complaints."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Recipes",
+          "description": "Map the cookbook from quick drinks to signature dishes and learn which recipe unlocks actually grow your menu."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Maid Cafe Simulator."
+          "title": "How to Make Money Fast",
+          "description": "Turn orders, tips and reputation into steady income, then reinvest in the upgrades that raise your daily profit."
         }
       ]
     },
@@ -66,237 +66,287 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Best Maids",
+        "Recipe Unlocks",
+        "Cafe Upgrades"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "The core service loop, a first-week plan and the mistakes that drain new players' profits.",
+          "href": "/guide/maid-cafe-simulator-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Staffing",
+          "title": "Maids & Hiring",
+          "description": "Every maid archetype and the stats that decide who earns tips and who causes complaints.",
+          "href": "/characters/maid-cafe-simulator-maids"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Menu",
+          "title": "Recipes Guide",
+          "description": "Drinks, sweets, mains and signature dishes with unlock triggers and profit profiles.",
+          "href": "/mechanics/maid-cafe-simulator-recipes"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Upgrades",
+          "title": "Cafe Upgrades",
+          "description": "The spending order that turns decor, staffing and equipment into real profit.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Money",
+          "title": "How to Make Money Fast",
+          "description": "Where income comes from, how tips scale, and the daily habits that grow your cafe.",
+          "href": "/progression/maid-cafe-simulator-money"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Controls",
+          "title": "Controls & Keybinds",
+          "description": "Default keyboard and mouse bindings, rebinding tips and fixes for common input issues.",
+          "href": "/controls/maid-cafe-simulator-controls"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Story",
+          "title": "Endings Guide",
+          "description": "True, route, solo, neutral and failure endings and the flags that decide your finale.",
+          "href": "/progression/maid-cafe-simulator-endings"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Progression",
+          "title": "Cafe Levels",
+          "description": "How cafe level and reputation gate new recipes, upgrades and customer volume.",
+          "href": "/progression/maid-cafe-simulator-levels"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Release",
+          "title": "Release Date",
+          "description": "Platform and launch details plus where official announcements are posted first.",
+          "href": "/guide/maid-cafe-simulator-release-date"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Maid Cafe Simulator?",
       "paragraphs": [
-        "Maid Cafe Simulator is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Maid Cafe Simulator is a cozy first-person cafe management sim for PC. You run a themed maid cafe from behind the counter: greet and seat guests, take orders, brew drinks and plate desserts, then serve them fast enough to earn tips and glowing reviews. Between shifts you restock ingredients, hire and train maids, and reinvest your earnings into the cafe.",
+        "Progression is built on reputation. Happy customers leave reviews that raise traffic, and traffic is only worth chasing if your kitchen and floor can keep up, so upgrades follow the bottleneck rather than the price tag. Your maids drive most of that outcome through Charm, Speed, Stamina, Accuracy and Mood, while the cookbook grows from simple drinks to signature dishes as your cafe levels up."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cafe Management Sim"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "View",
+          "value": "First-Person"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Maid Stats",
+          "value": "Charm, Speed, Accuracy"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Menu Types",
+          "value": "Drinks, Sweets, Mains"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Core Loop",
+          "value": "Serve, Tip, Upgrade"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Maid Cafe Simulator Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Browse the Maid Cafe Simulator systems that matter most, from beginner onboarding and maid hiring to recipe unlocks, cafe upgrades, money-making, story routes and update tracking.",
       "modules": [
         {
           "order": 1,
-          "name": "Maid Cafe Simulator Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/maid-cafe-simulator-codes",
-          "displayType": "code-box",
+          "name": "Maid Cafe Simulator Beginner Guide",
+          "description": "A step-by-step walkthrough of the basic cafe loop: taking orders, preparing food and drinks, serving customers, upgrading facilities and settling into a stable early routine.",
+          "href": "/guide/maid-cafe-simulator-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Serve every table by hand on day one and note which step slows down first"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Hire one reliable server and trim the menu to a small, fast core"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Upgrade the single station that keeps backing up during the lunch rush"
+            },
+            {
+              "label": "4",
+              "detail": "Bank enough cash to cover wages plus a full ingredient restock"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/maid-cafe-simulator-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Maid Cafe Simulator Maids Guide",
+          "description": "Meet the maid archetypes, understand the stats behind hiring, and learn how Charm, Speed, Stamina, Accuracy and Mood shape service, tips and reputation.",
+          "href": "/characters/maid-cafe-simulator-maids",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Charm",
+              "detail": "Greetings, small talk and photo requests that multiply tips"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Speed",
+              "detail": "Order turnaround and table turnover during the lunch rush"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Stamina",
+              "detail": "How long a maid stays sharp before fatigue sets in"
+            },
+            {
+              "label": "Accuracy",
+              "detail": "Fewer wrong orders and dropped plates protect your star rating"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/maid-cafe-simulator-tier-list",
+          "name": "Maid Cafe Simulator Recipes Guide",
+          "description": "The full menu map for drinks, baked sweets, savory mains and signature dishes, plus how recipe unlocks, prep steps and timing windows turn into profit.",
+          "href": "/mechanics/maid-cafe-simulator-recipes",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Signature dishes such as decorated omelet rice and showpiece parfaits, the highest-margin menu slots"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Savory mains like omelet rice, curry, pasta and sandwiches that fill customers and unlock combos"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Baked sweets such as cakes, cookies and tarts that pair with drinks and raise order value"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Quick drinks like tea, drip coffee and floats, low margin but high volume and fast to serve"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/maid-cafe-simulator-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Maid Cafe Simulator Cafe Upgrade Guide",
+          "description": "How cafe expansion, equipment upgrades and facility improvements actually pay off, and the spending order that keeps a busy shop from bleeding cash.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-upgrades",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Fix the current bottleneck first, whether that is a station, a walking path or one extra hire"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Keep an ingredient and restock buffer so peak hours never run dry"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Train the staff you already have before replacing them with fresh hires"
+            },
+            {
+              "label": "4",
+              "detail": "Expand seating and add decorative upgrades only once the basics are solid"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/maid-cafe-simulator-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Maid Cafe Simulator Achievements Guide",
+          "description": "Track the goals that complete a run, from filling the story gallery and holding a star rating to finishing every character route.",
+          "href": "/progression/maid-cafe-simulator-unlocks",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Gallery",
+              "detail": "Unlock every scene and ending branch to complete the story gallery"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Stars",
+              "detail": "Hold a strong star rating by keeping customers happy every shift"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Routes",
+              "detail": "Finish each character route to fill out the achievement list"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/maid-cafe-simulator-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Maid Cafe Simulator Tips and Tricks",
+          "description": "Practical management habits for staffing, pricing, restocking and keeping tables turning, aimed at players who want to run a steadier, more profitable day.",
+          "href": "/mechanics/maid-cafe-simulator-cafe-management",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Pre-open",
+              "detail": "Restock ingredients and assign maid shifts before the doors open"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Rush",
+              "detail": "Prioritise speed over perfection to keep tables turning at peak"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Closing",
+              "detail": "Review sales, pay wages and queue the next upgrade before you stop"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Maid Cafe Simulator Story Guide",
+          "description": "How the story chapters, maid bond events and route flags fit together, and what separates a true ending from a neutral or failure outcome.",
+          "href": "/progression/maid-cafe-simulator-endings",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "True",
+              "detail": "High affection plus a thriving cafe and the right flags reach the true ending"
+            },
+            {
+              "label": "Route",
+              "detail": "Max affection with a single character unlocks their dedicated finale"
+            },
+            {
+              "label": "Solo",
+              "detail": "A strong cafe with low romance lands the solo career ending"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Maid Cafe Simulator Updates Guide",
+          "description": "Where to follow official announcements, patches and new content, and what each kind of update changes for an existing save.",
+          "href": "/guide/maid-cafe-simulator-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "News",
+              "detail": "Devlogs and announcements land on the store page and community hub first"
+            },
+            {
+              "label": "Demo",
+              "detail": "A playable demo shows the opening shifts before the full release"
+            },
+            {
+              "label": "Patch",
+              "detail": "Balance changes and fixes arrive through regular store updates"
             }
           ]
         }
@@ -304,27 +354,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Maid Cafe Simulator.",
+      "description": "Quick answers to the most common Maid Cafe Simulator questions from new cafe owners.",
       "items": [
         {
           "question": "What is Maid Cafe Simulator?",
-          "answer": "Maid Cafe Simulator is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Maid Cafe Simulator is a cozy first-person management sim where you run a themed maid cafe. You seat guests, take orders, prepare drinks and desserts, serve tables, earn tips, restock ingredients, hire and train maids, and upgrade the cafe as your reputation grows."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which maid should I hire first in Maid Cafe Simulator?",
+          "answer": "Hire for the peak stat rather than the average. A Cheerful Greeter with high Charm fits the front door, a Shy Perfectionist with strong Accuracy suits VIP tables, and one reliable server in the first few days is usually the cheapest way to raise throughput in Maid Cafe Simulator."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I make money fast in Maid Cafe Simulator?",
+          "answer": "Service speed drives Maid Cafe Simulator money more than any single purchase. Keep a tight menu so orders clear quickly, restock before the rush so you never lose a sale, and let tips and reputation compound instead of chasing one big payout."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What should I upgrade first in Maid Cafe Simulator?",
+          "answer": "Fix the current bottleneck first, whether that is a slow station, a blocked walking path or one extra hire. After that, build an ingredient buffer, train your existing staff, and only then expand seating and add decorative upgrades."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Maid Cafe Simulator have multiple endings?",
+          "answer": "Yes. Maid Cafe Simulator endings usually split into a true ending, character route endings, a solo career ending, a neutral outcome and failure endings, with the result checked at fixed points late in the run rather than in the final week."
         }
       ]
     },
