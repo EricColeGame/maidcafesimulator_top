@@ -1,133 +1,82 @@
 export const metadata = {
-  title: "Maid Cafe Simulator Mods: Der komplette Leitfaden zum sicheren Installieren, Finden und Verwenden",
-  description: "Erfahren Sie, wie Maid Cafe Simulator Mods funktionieren – wo Sie sie finden, wie Sie sie sicher installieren und wie Sie Konflikte, Abstürze und Probleme mit der Ladereihenfolge beheben.",
+  title: "Maid Cafe Simulator: Was die Steam-Seite tatsächlich bestätigt",
+  description: "Ein bodenständiger Blick auf Maid Cafe Simulator auf Steam: beworbene Features, wie die Café-Schleife funktioniert und was die Store-Seite nicht dokumentiert.",
   category: "mods",
-  date: "2026-10-12",
-}
+  date: "2026-10-14",
+};
 
-## Warum sich Maid Cafe Simulator Mods für Sie lohnen
+Maid Cafe Simulator ist ein First-Person-Café-Management-Spiel der Entwickler Accelix und SCON, das am 7. Oktober 2026 als App 3232690 auf Steam erschienen ist. Wer die Store-Seite gesehen hat, kennt den Pitch bereits: Du erbst ein heruntergekommenes Café, ein Kemonomimi-Mädchen taucht auf und verändert alles, und du verbringst deine Schichten damit, Drinks zu mixen, Kunden zu bedienen, Kassenbons zu scannen und Wechselgeld herauszugeben – auf dem Weg zu drei Maidchelin-Sternen. Dieser Artikel hält sich an das, was das [offizielle Steam-Listing](https://store.steampowered.com/app/3232690/) tatsächlich aussagt, und trennt das von dem, was Drittanbieter-Guides behaupten und was schlicht nirgends dokumentiert ist.
 
-Maid Cafe Simulator gibt Ihnen ein gemütliches kleines Unternehmen zum Führen: Begrüßen Sie Kunden, nehmen Sie Bestellungen auf, halten Sie das Café makellos und bauen Sie sich Schicht für Schicht einen Ruf auf. Irgendwann stoßen jedoch die meisten Spieler an dieselbe Grenze – die Spielschleife beginnt sich schneller zu wiederholen, als das Spiel neue Inhalte hinzufügt. Genau hier kommen **Maid Cafe Simulator Mods** ins Spiel. Ein einziger gut gemachter Mod kann die Anzahl der Menüpunkte verdoppeln, das Aussehen Ihres gesamten Personals verändern oder die Schwierigkeit neu ausbalancieren, sodass sich eine langsame Dienstagsschicht tatsächlich geschäftig anfühlt.
+## Was die Steam-Seite bewirbt
 
-Der Reiz von **Maid Cafe Simulator Mods** ist einfach: Sie entscheiden, was aus dem Spiel wird. Manche Spieler wollen eine härtere Wirtschaft, in der jeder Zutatenkauf zählt. Andere wollen reine Ästhetik – neue Uniformen, neue Möbel, neue Beleuchtung. Keiner der Ansätze ist falsch, und die meisten Mod-Listen sind am Ende eine Mischung aus beidem.
+Die Store-Beschreibung ist kurz und konkret, was hilfreich ist. Das bestätigt sie:
 
-Dieser Leitfaden führt durch die Mod-Kategorien, auf die Sie stoßen werden, wo Sie sie finden, ohne sich Malware einzufangen, wie Sie sie Schritt für Schritt installieren und was zu tun ist, wenn etwas kaputtgeht. Alles hier ist für Spieler geschrieben, die noch nie eine Spieldatei angefasst haben.
+| Beworbenes Feature | Was es in der Praxis bedeutet |
+| --- | --- |
+| Du erbst ein heruntergekommenes Café | Der Startraum ist ein Sanierungsobjekt, kein fertiges Lokal |
+| Ein Kemonomimi-Mädchen verändert alles | Eine Story-Figur, die den Zustand des Cafés verändert |
+| Fünf Maids, jede mit einem Geheimnis | Fünf namentliche Mitarbeiterinnen mit persönlichen Handlungssträngen |
+| Drei Maidchelin-Sterne | Das übergeordnete Progressionziel |
+| Drinks mixen und Kunden bedienen | Die zentrale aktive Spielschleife |
+| Kassenbons scannen und Wechselgeld zählen | Eine manuelle Kassenroutine |
+| Zutaten per Telefon bei einem Maidroid-Kurier bestellen | Nachbestellung über einen Anruf im Spiel |
 
-## Die wichtigsten Arten von Maid Cafe Simulator Mods
+Diese Liste ist der gesamte beworbene Umfang. Es lohnt sich, sie zweimal zu lesen, denn vieles, wonach Leute rund um dieses Spiel suchen – vollständige Rezeptlisten, exakte Preise, Maid-Statistiken, Endbedingungen, Codes –, steht überhaupt nicht auf der Store-Seite. Die Beschreibung nennt dir die Verben, nicht die Zahlen.
 
-Mods für Café- und Managementsimulationen lassen sich meist in eine Handvoll erkennbarer Kategorien einteilen. Zu wissen, in welche Kategorie ein Mod gehört, verrät Ihnen eine Menge darüber, wie riskant die Installation ist.
+## Die Kernschleife, wie beschrieben
 
-| Mod-Typ | Was er ändert | Typische Auswirkung | Risikostufe |
-|---|---|---|---|
-| Kosmetisch / Reskin | Uniformen, Café-Innenräume, UI-Farben, Charakterporträts | Nur visuell, keine Auswirkung aufs Gameplay | Niedrig |
-| Inhaltserweiterung | Neue Rezepte, Menüpunkte, Kundentypen, Eventtage | Fügt Stunden Spielzeit hinzu | Mittel |
-| Balance / Wirtschaft | Preise, Löhne, Geduld der Kunden, Schicht-Timer | Ändert die Schwierigkeitskurve | Mittel |
-| Komfortfunktionen | Schnellere Animationen, automatisches Auffüllen, bessere Sortierung | Nimmt monotonen Aufwand heraus | Niedrig bis mittel |
-| Skript / Framework | Fügt neue Systeme hinzu, in die andere Mods einhaken | Ermöglicht andere Mods | Hoch |
-| Total Conversion | Überarbeitet die Kernspielschleife oder das Setting vollständig | Praktisch ein neues Spiel | Hoch |
+Das Spiel ist in First-Person-Perspektive und managementorientiert, was prägt, wie du spielen solltest. Du siehst nicht auf eine Tabellenkalkulation; du stehst im Raum und erledigst die Arbeit. Basierend auf den beworbenen Features gliedert sich eine Schicht in einige wiederkehrende Phasen:
 
-Kosmetische Mods sind der sicherste Einstieg. Sie berühren selten die Gameplay-Logik. Wenn etwas falsch aussieht, können Sie die Datei entfernen, und alles springt in den Normalzustand zurück.
+Erstens, Vorbereitung. Du verschaffst dir einen Überblick über deinen Bestand und bestellst dann per Telefon Zutaten, die per Maidroid-Kurier eintreffen. Mitten in der Schicht leer dazustehen, ist der offensichtliche Fehlerzustand, daher ist es wichtiger, vor Servicestart zu bestellen, als schnell zu bestellen.
 
-Inhalts- und Balance-Mods sind der Bereich, in dem die meisten Spieler ihre Zeit verbringen. Sie interagieren mit den zugrunde liegenden Zahlen des Spiels, was bedeutet, dass zwei Mods, die denselben Wert bearbeiten, gegeneinander kämpfen. Dieser Konflikt ist die mit Abstand häufigste Ursache für Beschwerden wie „Mein Spiel ist nach dem Modden kaputt“ in Community-Threads.
+Zweitens, Service. Du mixst Drinks und bedienst Kunden. In First-Person-Management-Spielen ist der Engpass meist die eigene Bewegung und das Timing statt einer versteckten Schwierigkeitskurve, weshalb Vertrautheit mit dem Layout tendenziell mehr zählt als reine Geschwindigkeit.
 
-Skript- und Framework-Mods stehen an der Spitze der Abhängigkeitskette. Wenn ein Framework-Mod nach einem Spiel-Update bricht, bricht auch jeder darauf aufbauende Mod. Installieren Sie diese bewusst, nicht beiläufig.
+Drittens, Kasse. Das Scannen von Bons und das Zählen von Wechselgeld wird getrennt vom Bedienen genannt, was nahelegt, dass es eine eigenständige Aufgabe ist und nicht etwas, das automatisch passiert. Behandle es als einen Schritt, den du aktiv abschließen musst, nicht als eine Animation, die sich von selbst auflöst.
 
-## Wo Sie Maid Cafe Simulator Mods sicher finden
+Viertens, Progression. Drei Maidchelin-Sterne sind das erklärte Ziel, und fünf Maids mit individuellen Geheimnissen implizieren, dass Mitarbeiterbeziehungen und Story-Momente parallel zu den Geschäftskennzahlen laufen.
 
-Die Qualität der Quelle zählt mehr als die Menge der Mods. Eine kleine, kuratierte Bibliothek schlägt eine riesige ungeprüfte jedes Mal.
+## Managementratschläge, die keine erfundenen Daten brauchen
 
-| Quelle | Stärken | Vorsicht bei |
-|---|---|---|
-| Steam Workshop (falls unterstützt) | Installation mit einem Klick, automatische Updates, Abonnement beenden zum Entfernen | Mods können nach Patches stillschweigend brechen |
-| Etablierte Mod-Hosts (Nexus Mods, ModDB usw.) | Versionsverlauf, Kommentare, Dateiscanning | Erfordert manuelle Installation und Umgang mit Archiven |
-| Offizieller Spiel-Discord | Schnelles Feedback der Autoren, Beta-Builds | Dateien sind oft ungeprüfte Builds |
-| GitHub-Repositories | Transparenter Quellcode, Issue-Tracker | Richtet sich an technische Nutzer |
-| Zufällige Filesharing-Links | Keine | Malware, gebündelte Installer, kein Support |
+Da die Store-Seite weder eine Rezeptliste noch Artikelpreise, Maid-Statistiken oder ein Codesystem veröffentlicht, arbeitet jeder Guide, der dir exakte Zahlen liefert, entweder mit datamined Dateien oder denkt sich etwas aus. Beides gehört nicht in einen Planungsartikel. Was du stattdessen tun kannst, ist allgemeine Praxis anzuwenden und den Rest das Spiel erzählen zu lassen.
 
-Eine gute Regel: Wenn ein Download-Link hinter drei Weiterleitungseiten vergraben ist und Sie auffordert, einen `.exe`-Installer auszuführen, schließen Sie den Tab. Legitime Mods für Simulationsspiele werden fast immer als Archive verteilt, die Sie manuell entpacken, oder als Ein-Klick-Workshop-Abonnements.
+Lerne einen Drink nach dem anderen. In jedem mischbasierten Simulator schlägt Muskelgedächtnis ein Nachschlageblatt, und ein kleines verlässliches Repertoire bedient mehr Kunden als ein breites wackeliges.
 
-Bevor Sie etwas herunterladen, prüfen Sie drei Dinge: das Upload-Datum, den Kommentarbereich und ob der Autor angibt, für welche Spielversion der Mod gedacht ist. Ein Mod, der lange vor dem aktuellen Patch zuletzt aktualisiert wurde, ist ein Glücksspiel.
+Bestelle, bevor du es brauchst. Den Maidroid-Kurier gibt es, damit du nachbestellen kannst, ohne den Boden zu verlassen, aber Lieferungen sind in keinem Management-Spiel, das diesen Namen verdient, sofort da. Behalte deine Regale in ruhigen Momenten im Blick, nicht im Ansturm.
 
-Wenn Sie das Spiel über einen Store besitzen, beginnen Sie mit seiner offiziellen Seite – [Maid Cafe Simulator auf Steam](https://store.steampowered.com/) – und prüfen Sie, ob Workshop-Unterstützung aufgeführt ist. Das sagt Ihnen sofort, ob Sie Ein-Klick-Installationen oder manuelle Dateiverwaltung betreiben.
+Zähle Wechselgeld bewusst. Wenn das Zählen von Wechselgeld eine eigene beworbene Aufgabe ist, ist es wahrscheinlich auch ein Ort, an dem Fehler dich etwas kosten. Werde an der Kasse etwas langsamer, statt eine Uhr schlagen zu wollen, die du noch nicht gemessen hast.
 
-## So installieren Sie Maid Cafe Simulator Mods Schritt für Schritt
+Beobachte die Maids als Menschen, nicht nur als Personal. Fünf Maids, fünf Geheimnisse ist ein Story-Versprechen. Wenn sich der Dialog einer Maid verändert, ist das wahrscheinlich ein Signal, dem es nachzugehen lohnt, und kein Hintergrund-Flavor.
 
-Der genaue Ordnerpfad unterscheidet sich je nachdem, wo Sie das Spiel gekauft haben und auf welcher Engine es läuft, aber der Arbeitsablauf ist nahezu universell.
+Nimm den Zustand des Cafés früh ernst. Einen heruntergekommenen Raum zu erben, bedeutet, dass die Umgebung selbst eine Variable ist. Den Raum zu verbessern, ist normalerweise eine Voraussetzung dafür, deine Bewertung zu erhöhen, kein kosmetisches Nebenprojekt.
 
-| Schritt | Aktion | Warum es wichtig ist |
-|---|---|---|
-| 1 | Sichern Sie Ihren Speicherordner | Ermöglicht ein Zurückrollen, falls ein Mod den Fortschritt beschädigt |
-| 2 | Notieren Sie Ihre aktuelle Spielversion | Mods sind versionsspezifisch |
-| 3 | Finden Sie das Installationsverzeichnis | Rechtsklick auf das Spiel in Ihrer Bibliothek → Verwalten → Lokale Dateien durchsuchen |
-| 4 | Lesen Sie die README des Mods vollständig | Autoren dokumentieren erforderliche Abhängigkeiten |
-| 5 | Kopieren Sie Dateien in den richtigen Ordner | Normalerweise einen `Mods`-, `BepInEx`- oder `Plugins`-Ordner |
-| 6 | Starten und testen Sie jeweils nur einen Mod | Isoliert, welcher Mod einen Absturz verursacht |
-| 7 | Fügen Sie Mods in kleinen Gruppen hinzu | Hält die Fehlersuche überschaubar |
+## Was Community-Guides behaupten und wie man sie behandeln sollte
 
-### Sichern, bevor Sie modden
+Drittanbieter-Guides und Wiki-Seiten haben begonnen, Details zu füllen, die der Entwickler nicht veröffentlicht hat: Drink-Kombinationen, Preisratschläge, Mitarbeiterpräferenzen und Sternanforderungen. Behandle all das als sekundäre Beobachtung. Einiges davon mag akkurat und getestet sein; einiges davon mag die Erfahrung eines einzelnen Spielers sein, verallgemeinert zu einer Regel. Wenn ein Guide dir eine konkrete Zahl nennt, prüfe, ob er das Spiel selbst oder die offizielle Seite zitiert. Wenn er keines von beiden zitiert, verifiziere es in deinem eigenen Spielstand, bevor du eine Strategie darauf aufbaust.
 
-Dies ist der Schritt, den fast jeder überspringt und fast jeder bereut. Finden Sie Ihr Speicherverzeichnis – häufig unter `Documents`, `AppData\LocalLow` oder direkt im Spielordner – und kopieren Sie alles an einen Ort außerhalb des Spielverzeichnisses. Wenn ein Mod Speicherdaten überschreibt, können Sie sie in Sekunden wiederherstellen, statt ein Dutzend Stunden Café-Fortschritt zu verlieren.
+Die zuverlässigste Verifikationsmethode ist einfach: Spiele den relevanten Abschnitt, beobachte, was das Spiel dir sagt, und vergleiche. Rezeptverhalten, Kassenabwicklung und Sternprogression sind alle im Spiel beobachtbar. Die [Steam-Store-Seite](https://store.steampowered.com/app/3232690/) bleibt die Autorität dafür, was das Spiel beworbenermaßen tun soll, und sie wurde nicht aktualisiert, um mechanische Tabellen aufzunehmen.
 
-### Grundlagen der manuellen Installation
+## Was wirklich nicht dokumentiert ist
 
-Die meisten manuellen Mods sind Archive, die einen Ordner enthalten, der die Struktur des Spiels nachbildet. Diesen Ordner direkt in das Stammverzeichnis des Spiels zu entpacken, ist normalerweise richtig. Wenn das Archiv neben einem Ordner eine `.dll`-Datei enthält, gehört diese DLL normalerweise in ein Plugins-Verzeichnis, das von einem Mod-Loader erstellt wurde.
+Um es klar zu sagen: Es gibt keine veröffentlichte Rezeptliste, keine Artikelpreisliste, keine Maid-Statistik, keinen Endguide und kein Codesystem vom Entwickler. Es gibt keine offiziellen Hotkeys, die auf der Store-Seite dokumentiert sind, keine Drop-Raten und auch keine dort referenzierten Patch Notes. Die Store-Seite beschreibt auch nicht, wie lange ein vollständiger Durchlauf dauert oder wie viele Enden existieren.
 
-Benennen Sie keine Dateien um. Führen Sie Ordner nicht blind zusammen. Wenn in der README steht „in das Spiel-Stammverzeichnis entpacken“, entpacken Sie in das Spiel-Stammverzeichnis.
-
-## Ladereihenfolge, Konflikte und Kompatibilität
-
-Zwei Mods, die dieselbe Datei bearbeiten, können nicht beide recht haben. Das Spiel liest eine davon, und welche gewinnt, hängt von der Ladereihenfolge oder Installationsreihenfolge ab.
-
-| Symptom | Wahrscheinliche Ursache | Lösung |
-|---|---|---|
-| Spiel stürzt beim Start ab | Fehlende Abhängigkeit oder falsche Spielversion | Entfernen Sie den neuesten Mod und testen Sie erneut |
-| Mod hat keine sichtbare Wirkung | Von einem anderen Mod überschrieben | Verschieben Sie ihn in der Ladereihenfolge nach hinten |
-| Texturen erscheinen kaputt oder pink | Konflikte zwischen Textur-Replacern | Behalten Sie nur einen Textur-Mod pro Asset |
-| Speicherstände lassen sich nicht laden | Mod mitten im Durchspielen entfernt | Installieren Sie den Mod neu oder stellen Sie ein Backup wieder her |
-| Leistung sinkt stark | Schwere Skript-Mods stapeln sich | Deaktivieren Sie Skript-Mods einzeln |
-| Kunden bleiben stehen | Konflikte zwischen KI- oder Verhaltens-Mods | Wählen Sie eine Verhaltensüberarbeitung |
-
-Eine praktische Gewohnheit: Führen Sie eine einfache Textdatei, in der jeder installierte Mod, seine Version und seine Quelle aufgelistet sind. Wenn das Spiel aktualisiert wird und etwas kaputtgeht, verwandelt diese Liste eine zweistündige Debugging-Sitzung in eine fünfminütige.
-
-Community-Berichte zeigen durchweg, dass die überwiegende Mehrheit der Fälle von „Mod hat mein Spiel kaputt gemacht“ auf drei Dinge zurückgeht – veraltete Mods, fehlende Abhängigkeiten und doppelte Bearbeitungen derselben Datei. Nichts davon erfordert technisches Können, um es zu beheben. Es erfordert nur Geduld.
-
-## Fehlerbehebung bei häufigen Mod-Problemen
-
-Beginnen Sie mit der einfachsten Erklärung, bevor Sie das gesamte Spiel neu installieren.
-
-- **Überprüfen Sie zuerst die Spieldateien.** Jeder große Store hat eine Option „Integrität der Spieldateien überprüfen“. Sie stellt alles wieder her, was ein Mod in der Basisinstallation überschrieben hat.
-- **Deaktivieren Sie die Hälfte Ihrer Mods.** Wenn das Spiel mit der ersten Hälfte aktiviert funktioniert, liegt das Problem in der zweiten Hälfte. Wiederholen Sie dies, bis Sie den Übeltäter finden.
-- **Prüfen Sie, ob ein Mod-Loader erforderlich ist.** Viele Mods laden überhaupt nicht, wenn nicht zuerst der passende Loader installiert wurde.
-- **Lesen Sie die letzten paar Kommentare.** Wenn fünf Leute „stürzt nach dem neuesten Patch ab“ geschrieben haben, haben Sie Ihre Antwort.
-- **Rollen Sie zurück, wenn möglich.** Bei einigen Stores können Sie eine ältere Build-Version wählen, was Zeit verschafft, bis der Mod-Autor aktualisiert.
-
-Wenn Sie feststecken, fragen Sie im Kommentarbereich des Mods selbst oder im Community-Hub des Spiels. Geben Sie Ihre Spielversion, Ihre Mod-Liste und den genauen Fehlertext an. Vage Berichte erhalten selten hilfreiche Antworten.
-
-## Modding-Etikette und sicher bleiben
-
-Mod-Autoren arbeiten kostenlos, meist in ihrer eigenen Zeit. Ein paar Gewohnheiten halten die Community gesund und bewahren Sie vor Ärger:
-
-- Laden Sie niemals den Mod einer anderen Person ohne Erlaubnis erneut hoch.
-- Melden Sie Bugs detailliert, statt „es ist kaputt“ zu posten.
-- Nennen Sie die Autoren, wenn Sie auf ihrer Arbeit aufbauen.
-- Zahlen Sie nicht für Mods, die anderswo kostenlos angeboten werden – bezahlte Reuploads kostenloser Inhalte sind ein häufiger Betrug.
-- Halten Sie Ihren Virenschutz aktiv und scannen Sie jedes Archiv, das Sie von einer unbekannten Quelle herunterladen.
-
-Wenn Sie sich an seriöse Hosts halten, jeweils nur einen Mod testen und Speicherstände sichern, ist die überwiegende Mehrheit des Risikos abgedeckt. Das Modden einer gemütlichen Café-Sim sollte sich wie Dekorieren anfühlen, nicht wie Bombenentschärfen.
+Wenn du eine Seite siehst, die eine vollständige Rezeptdatenbank oder eine funktionierende Code-Liste verspricht, frag, woher die Daten stammen. Ohne offizielle Quelle sind diese Informationen entweder aus Spieldateien extrahiert oder erfunden, und beides bringt dasselbe Problem für einen Spieler mit sich: Sie überstehen möglicherweise nicht das nächste Update.
 
 ## FAQ
 
-**Sind Maid Cafe Simulator Mods sicher zu installieren?**
-Mods von etablierten Hosts, offiziellen Workshop-Seiten oder den eigenen Community-Kanälen des Spiels sind im Allgemeinen sicher. Das Risiko kommt von inoffiziellen Reuploads und gebündelten Installern, die der häufigste Verbreitungsweg für unerwünschte Software sind. Scannen Sie Archive und halten Sie sich an Quellen mit sichtbarem Kommentarbereich und Versionsverlauf.
+**Wann ist Maid Cafe Simulator erschienen?**
+Am 7. Oktober 2026, laut dem offiziellen Steam-Listing für App 3232690.
 
-**Können Mods meinen Spielstand beschädigen?**
-Sie können es, insbesondere Mods, die die Wirtschaft verändern oder neue Inhaltstypen hinzufügen. Deshalb ist das Sichern Ihres Speicherordners vor der Installation irgendetwas das Wichtigste überhaupt. Wenn ein Spielstand nach dem Entfernen eines Mods nicht geladen werden kann, löst die Wiederherstellung des Backups das Problem normalerweise.
+**Wer hat es entwickelt?**
+Accelix und SCON sind auf Steam als Entwickler gelistet.
 
-**Funktionieren Maid Cafe Simulator Mods nach einem Spiel-Update?**
-Manchmal, aber nicht immer. Updates können die Dateien ändern, von denen Mods abhängen, sodass ein Mod, der letzte Woche funktioniert hat, heute abstürzen kann. Prüfen Sie die Mod-Seite auf ein aktuelles Update oder einen Kompatibilitätshinweis, bevor Sie annehmen, dass bei Ihnen etwas nicht stimmt.
+**Ist es in First-Person-Perspektive?**
+Ja. Die Store-Beschreibung rahmt es als First-Person-Café-Management, bei dem du Drinks mixst, Kunden bedienst und die Kasse selbst führst.
 
-**Kann ich mehrere Mods gleichzeitig verwenden?**
-Ja, und die meisten Spieler tun das. Der Schlüssel ist, sie in kleinen Gruppen zu installieren und nur einen Mod pro Asset-Typ zu behalten. Wenn zwei Mods dieselbe Datei bearbeiten, überschreibt einer immer den anderen – das ist ein Problem der Ladereihenfolge, kein Bug.
+**Wie viele Maids gibt es?**
+Fünf, und die Beschreibung sagt, dass jede ein Geheimnis hat.
 
-**Wo sollte ein Anfänger anfangen?**
-Beginnen Sie mit ein oder zwei kosmetischen Mods. Sie sind risikoarm, leicht zu entfernen und ermöglichen es Ihnen, den Installationsprozess kennenzulernen, ohne die Gameplay-Balance anzufassen. Wenn Sie sich sicher fühlen, gehen Sie zu Inhalts- und Komfort-Mods über.
+**Was ist das Hauptziel?**
+Drei Maidchelin-Sterne zu verdienen, während du das geerbte Café führst.
+
+**Gibt es Codes oder eine Rezeptliste online?**
+Auf der Store-Seite ist kein offizielles Codesystem und keine Rezeptliste veröffentlicht. Community-Guides existieren, aber es sind Beobachtungen von Drittanbietern, also verifiziere alles Konkrete in deinem eigenen Spiel, bevor du dich darauf verlässt.

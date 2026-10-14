@@ -2,15 +2,15 @@
   "site": {
     "name": "Maid Cafe Simulator Wiki",
     "shortName": "Maid Cafe Simulator",
-    "tagline": "Café-Management-Guides, Items, Maids und Tipps",
-    "description": "Das komplette Maid Cafe Simulator Wiki mit Gameplay-Guides, Tipps zum Café-Management, Item-Infos, Charakterdetails und hilfreichen Ressourcen für neue Spieler.",
+    "tagline": "Café-Management-Guides, Items, Maids & Tipps",
+    "description": "Komplettes Maid Cafe Simulator Wiki mit Gameplay-Guides, Café-Management-Tipps, Item-Informationen, Charakterdetails und nützlichen Ressourcen für neue Spieler.",
     "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
   },
   "nav": {
     "home": "Startseite",
     "menu": "Menü",
     "toggleTheme": "Design wechseln",
-    "guide": "Leitfaden",
+    "guide": "Guide",
     "mechanics": "Mechaniken",
     "characters": "Charaktere",
     "items": "Items",
@@ -20,117 +20,117 @@
   },
   "home": {
     "meta": {
-      "title": "Maid Cafe Simulator Wiki – Guide, Items und Tipps",
-      "description": "Das komplette Maid Cafe Simulator Wiki mit Gameplay-Guides, Tipps zum Café-Management, Item-Infos, Charakterdetails und hilfreichen Ressourcen für neue Spieler."
+      "title": "Maid Cafe Simulator Wiki - Guide, Items & Tipps",
+      "description": "Komplettes Maid Cafe Simulator Wiki mit Gameplay-Guides, Café-Management-Tipps, Item-Informationen, Charakterdetails und nützlichen Ressourcen für neue Spieler."
     },
     "hero": {
       "eyebrow": "Gemütliches Maid-Café-Management",
       "title": "Maid Cafe Simulator Wiki",
-      "description": "Maid Cafe Simulator ist eine gemütliche Ego-Management-Simulation, in der du ein Maid-Café führst: Drinks zubereiten, Gäste bedienen, das Café ausbauen und fünf charmante Maids kennenlernen – auf dem Weg zu drei Maidchelin-Sternen.",
+      "description": "Maid Cafe Simulator ist eine gemütliche First-Person-Management-Simulation, in der du ein Maid-Café führst: Getränke zubereiten, Gäste bedienen, dein Café ausbauen und fünf charmante Maids kennenlernen auf dem Weg zu drei Maidchelin-Sternen.",
       "stats": [
         "Café-Management-Guides",
-        "Items und Rezepte",
+        "Items & Rezepte",
         "Maid-Charaktere",
         "Wöchentliche Updates"
       ],
       "primaryCta": "Auf Steam spielen",
       "secondaryCta": "Einsteiger-Guide",
-      "tertiaryCta": "Tipps zum Café-Management",
+      "tertiaryCta": "Café-Management-Tipps",
       "videoLabel": "Offizieller Trailer"
     },
     "updates": {
       "title": "Neueste Updates",
       "browse": "Alle Guides durchsuchen",
-      "viewAll": "Alle ansehen"
+      "viewAll": "Alle anzeigen"
     },
     "start": {
       "eyebrow": "Hier starten",
-      "title": "Deine Reise in Maid Cafe Simulator",
+      "title": "Deine Maid Cafe Simulator-Reise",
       "cards": [
         {
           "number": "1",
           "title": "Einsteiger-Guide",
-          "description": "Eröffne dein Café richtig – mit der grundlegenden Service-Schleife, einem Plan für die erste Woche und den Gewohnheiten, die neue Besitzer profitabel halten."
+          "description": "Eröffne dein Café richtig mit der Kern-Service-Schleife, einem Plan für die erste Woche und den Engpass-Gewohnheiten, die neue Besitzer profitabel halten."
         },
         {
           "number": "2",
           "title": "Beste Maids",
-          "description": "Vergleiche Charme, Tempo, Ausdauer, Genauigkeit und Laune, damit du ein Team einstellst und trainierst, das Trinkgeld statt Beschwerden einbringt."
+          "description": "Vergleiche Charme, Tempo, Ausdauer, Genauigkeit und Stimmung, damit du ein Team einstellst und trainierst, das Trinkgeld einbringt statt Beschwerden."
         },
         {
           "number": "3",
           "title": "Beste Rezepte",
-          "description": "Ordne das Kochbuch von schnellen Drinks bis zu Signature-Gerichten und erfahre, welche Rezept-Freischaltungen dein Menü wirklich erweitern."
+          "description": "Durchschaue das Kochbuch von schnellen Getränken bis zu Signature-Gerichten und erfahre, welche Rezept-Unlocks deine Speisekarte tatsächlich erweitern."
         },
         {
           "number": "4",
-          "title": "Schnell Geld verdienen",
-          "description": "Verwandle Bestellungen, Trinkgeld und Ruf in stetige Einnahmen und reinvestiere in die Upgrades, die deinen Tagesgewinn steigern."
+          "title": "Wie man schnell Geld verdient",
+          "description": "Verwandle Bestellungen, Trinkgelder und Ruf in stetige Einnahmen und reinvestiere dann in die Upgrades, die deinen Tagesgewinn steigern."
         }
       ]
     },
     "popular": {
       "eyebrow": "Beliebte Seiten",
-      "title": "Gerade angesagt",
+      "title": "Aktuell im Trend",
       "quickLinks": [
         "Einsteiger-Guide",
         "Beste Maids",
-        "Rezept-Freischaltungen",
+        "Rezept-Unlocks",
         "Café-Upgrades"
       ],
       "cards": [
         {
           "badge": "Einsteiger",
           "title": "Einsteiger-Guide",
-          "description": "Die grundlegende Service-Schleife, ein Plan für die erste Woche und die Fehler, die neuen Spielern den Gewinn kosten.",
+          "description": "Die Kern-Service-Schleife, ein Plan für die erste Woche und die Fehler, die neuen Spielern den Gewinn rauben.",
           "href": "/guide/maid-cafe-simulator-beginner-guide"
         },
         {
           "badge": "Personal",
-          "title": "Maids und Einstellung",
-          "description": "Jeder Maid-Archetyp und die Werte, die entscheiden, wer Trinkgeld verdient und wer Beschwerden auslöst.",
+          "title": "Maids & Einstellung",
+          "description": "Jeder Maid-Archetyp und die Werte, die entscheiden, wer Trinkgeld einbringt und wer Beschwerden verursacht.",
           "href": "/characters/maid-cafe-simulator-maids"
         },
         {
           "badge": "Menü",
-          "title": "Rezept-Guide",
-          "description": "Drinks, Süßes, Hauptgerichte und Signature-Gerichte mit Freischaltungen und Gewinnprofilen.",
+          "title": "Rezepte-Guide",
+          "description": "Getränke, Süßspeisen, Hauptgerichte und Signature-Gerichte mit Unlock-Auslösern und Profitprofilen.",
           "href": "/mechanics/maid-cafe-simulator-recipes"
         },
         {
           "badge": "Upgrades",
           "title": "Café-Upgrades",
-          "description": "Die Ausgabenreihenfolge, die Deko, Personal und Ausstattung in echten Gewinn verwandelt.",
+          "description": "Die Ausgabenreihenfolge, die Dekoration, Personal und Ausstattung in echten Gewinn verwandelt.",
           "href": "/mechanics/maid-cafe-simulator-cafe-upgrades"
         },
         {
           "badge": "Geld",
-          "title": "Schnell Geld verdienen",
-          "description": "Woher Einnahmen kommen, wie Trinkgeld skaliert und welche täglichen Gewohnheiten dein Café wachsen lassen.",
+          "title": "Wie man schnell Geld verdient",
+          "description": "Woher Einnahmen kommen, wie Trinkgelder skalieren und die täglichen Gewohnheiten, die dein Café wachsen lassen.",
           "href": "/progression/maid-cafe-simulator-money"
         },
         {
           "badge": "Steuerung",
-          "title": "Steuerung und Tastenbelegung",
-          "description": "Standardbelegung für Tastatur und Maus, Tipps zum Umbelegen und Lösungen für häufige Eingabeprobleme.",
+          "title": "Steuerung & Tastenbelegung",
+          "description": "Standard-Tasten- und Mausbelegung, Tipps zur Neubelegung und Lösungen für häufige Eingabeprobleme.",
           "href": "/controls/maid-cafe-simulator-controls"
         },
         {
           "badge": "Story",
           "title": "Enden-Guide",
-          "description": "Wahres Ende, Routen-Ende, Solo-Ende, neutrales Ende und Fehlschlag-Enden – und die Flags, die dein Finale bestimmen.",
+          "description": "Wahre, Route-, Solo-, neutrale und Fehlschlag-Enden und die Flags, die dein Finale entscheiden.",
           "href": "/progression/maid-cafe-simulator-endings"
         },
         {
           "badge": "Fortschritt",
           "title": "Café-Level",
-          "description": "Wie Café-Level und Ruf neue Rezepte, Upgrades und Kundenzahl steuern.",
+          "description": "Wie Café-Level und Ruf neue Rezepte, Upgrades und Kundenvolumen freischalten.",
           "href": "/progression/maid-cafe-simulator-levels"
         },
         {
-          "badge": "Release",
+          "badge": "Veröffentlichung",
           "title": "Erscheinungsdatum",
-          "description": "Plattform- und Launch-Details sowie die Orte, an denen offizielle Ankündigungen zuerst erscheinen.",
+          "description": "Plattform- und Launch-Details sowie wo offizielle Ankündigungen zuerst gepostet werden.",
           "href": "/guide/maid-cafe-simulator-release-date"
         }
       ]
@@ -138,8 +138,8 @@
     "aboutGame": {
       "title": "Was ist Maid Cafe Simulator?",
       "paragraphs": [
-        "Maid Cafe Simulator ist eine gemütliche Ego-Café-Management-Simulation für PC. Du führst ein Themen-Maid-Café von hinter dem Tresen aus: Gäste begrüßen und platzieren, Bestellungen aufnehmen, Drinks zubereiten und Desserts anrichten und alles schnell genug servieren, um Trinkgeld und glänzende Bewertungen zu verdienen. Zwischen den Schichten füllst du Zutaten auf, stellst Maids ein, bildest sie aus und reinvestierst deine Einnahmen ins Café.",
-        "Der Fortschritt basiert auf Ruf. Zufriedene Gäste hinterlassen Bewertungen, die den Zulauf erhöhen – und Zulauf lohnt sich nur, wenn Küche und Service mithalten. Upgrades folgen deshalb dem Engpass, nicht dem Preisschild. Den größten Anteil daran haben deine Maids mit Charme, Tempo, Ausdauer, Genauigkeit und Laune, während das Kochbuch mit steigendem Café-Level von einfachen Drinks zu Signature-Gerichten wächst."
+        "Maid Cafe Simulator ist eine gemütliche First-Person-Café-Management-Simulation für PC. Du führst ein thematisches Maid-Café von hinter dem Tresen: Begrüße und platziere Gäste, nimm Bestellungen auf, brühe Getränke auf und garniere Desserts, dann serviere sie schnell genug, um Trinkgeld und glänzende Bewertungen zu verdienen. Zwischen den Schichten füllst du Zutaten auf, stellst Maids ein und trainierst sie und reinvestierst deine Einnahmen in das Café.",
+        "Der Fortschritt basiert auf Ruf. Zufriedene Kunden hinterlassen Bewertungen, die den Zulauf erhöhen, und Zulauf ist nur erstrebenswert, wenn Küche und Service mithalten können, also folgen Upgrades dem Engpass statt dem Preisschild. Deine Maids treiben den Großteil dieses Ergebnisses durch Charme, Tempo, Ausdauer, Genauigkeit und Stimmung voran, während das Kochbuch mit steigendem Café-Level von einfachen Getränken zu Signature-Gerichten wächst."
       ],
       "stats": [
         {
@@ -148,70 +148,70 @@
         },
         {
           "label": "Genre",
-          "value": "Café-Management-Sim"
+          "value": "Café-Management-Simulation"
         },
         {
           "label": "Perspektive",
-          "value": "Ego-Perspektive"
+          "value": "First-Person"
         },
         {
           "label": "Maid-Werte",
           "value": "Charme, Tempo, Genauigkeit"
         },
         {
-          "label": "Menüarten",
-          "value": "Drinks, Süßes, Hauptgerichte"
+          "label": "Menü-Typen",
+          "value": "Getränke, Süßspeisen, Hauptgerichte"
         },
         {
-          "label": "Kernschleife",
-          "value": "Servieren, Trinkgeld, Upgrades"
+          "label": "Kern-Schleife",
+          "value": "Bedienen, Trinkgeld, Upgrades"
         }
       ],
-      "cta": "Alle Guides entdecken"
+      "cta": "Alle Guides erkunden"
     },
     "explore": {
-      "title": "Maid Cafe Simulator Wiki entdecken",
-      "description": "Durchsuche die wichtigsten Systeme von Maid Cafe Simulator – von der Einsteiger-Einführung und dem Einstellen von Maids bis zu Rezept-Freischaltungen, Café-Upgrades, Geldverdienen, Story-Routen und Update-Tracking.",
+      "title": "Maid Cafe Simulator Wiki erkunden",
+      "description": "Durchsuche die wichtigsten Maid Cafe Simulator-Systeme, vom Einsteiger-Onboarding und der Maid-Einstellung bis zu Rezept-Unlocks, Café-Upgrades, Geldverdienen, Story-Routen und Update-Verfolgung.",
       "modules": [
         {
           "order": 1,
           "name": "Maid Cafe Simulator Einsteiger-Guide",
-          "description": "Ein Schritt-für-Schritt-Durchlauf der grundlegenden Café-Schleife: Bestellungen aufnehmen, Essen und Drinks zubereiten, Gäste bedienen, Einrichtungen ausbauen und eine stabile frühe Routine finden.",
+          "description": "Ein Schritt-für-Schritt-Durchgang der grundlegenden Café-Schleife: Bestellungen aufnehmen, Essen und Getränke zubereiten, Gäste bedienen, Einrichtungen ausbauen und in eine stabile frühe Routine finden.",
           "href": "/guide/maid-cafe-simulator-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Bediene am ersten Tag jeden Tisch selbst und notiere, welcher Schritt zuerst langsamer wird"
+              "detail": "Bediene am ersten Tag jeden Tisch per Hand und notiere, welcher Schritt zuerst langsamer wird"
             },
             {
               "label": "2",
-              "detail": "Stelle eine zuverlässige Servicekraft ein und kürze das Menü auf einen kleinen, schnellen Kern"
+              "detail": "Stelle eine zuverlässige Servicekraft ein und reduziere die Speisekarte auf einen kleinen, schnellen Kern"
             },
             {
               "label": "3",
-              "detail": "Baue genau die Station aus, die im Mittagsansturm ständig ins Stocken gerät"
+              "detail": "Baue die einzelne Station aus, die sich während des Mittagsansturms ständig staut"
             },
             {
               "label": "4",
-              "detail": "Spare genug Geld für Löhne plus eine komplette Zutaten-Auffüllung"
+              "detail": "Spare genug Geld, um Löhne plus einen vollständigen Zutaten-Nachschub zu decken"
             }
           ]
         },
         {
           "order": 2,
           "name": "Maid Cafe Simulator Maids-Guide",
-          "description": "Lerne die Maid-Archetypen kennen, verstehe die Werte hinter der Einstellung und erfahre, wie Charme, Tempo, Ausdauer, Genauigkeit und Laune Service, Trinkgeld und Ruf prägen.",
+          "description": "Lerne die Maid-Archetypen kennen, verstehe die Werte hinter der Einstellung und erfahre, wie Charme, Tempo, Ausdauer, Genauigkeit und Stimmung Service, Trinkgeld und Ruf prägen.",
           "href": "/characters/maid-cafe-simulator-maids",
           "displayType": "card-list",
           "highlights": [
             {
               "label": "Charme",
-              "detail": "Begrüßungen, Smalltalk und Fotowünsche, die das Trinkgeld vervielfachen"
+              "detail": "Begrüßungen, Small Talk und Fotowünsche, die Trinkgelder vervielfachen"
             },
             {
               "label": "Tempo",
-              "detail": "Bestellabwicklung und Tischumschlag im Mittagsansturm"
+              "detail": "Bestellabwicklung und Tischumschlag während des Mittagsansturms"
             },
             {
               "label": "Ausdauer",
@@ -225,58 +225,58 @@
         },
         {
           "order": 3,
-          "name": "Maid Cafe Simulator Rezept-Guide",
-          "description": "Die komplette Menükarte für Drinks, Gebäck, herzhafte Hauptgerichte und Signature-Gerichte – plus wie Rezept-Freischaltungen, Vorbereitungsschritte und Timing zu Gewinn werden.",
+          "name": "Maid Cafe Simulator Rezepte-Guide",
+          "description": "Die vollständige Menükarte für Getränke, Backwaren, herzhafte Hauptgerichte und Signature-Gerichte, plus wie Rezept-Unlocks, Zubereitungsschritte und Zeitfenster zu Profit werden.",
           "href": "/mechanics/maid-cafe-simulator-recipes",
           "displayType": "tier-grid",
           "highlights": [
             {
               "label": "S",
-              "detail": "Signature-Gerichte wie dekorierter Omelett-Reis und Schau-Parfais – die margenstärksten Menüplätze"
+              "detail": "Signature-Gerichte wie dekorierter Omu-Reis und Schau-Parfais, die Menüplätze mit der höchsten Marge"
             },
             {
               "label": "A",
-              "detail": "Herzhafte Hauptgerichte wie Omelett-Reis, Curry, Pasta und Sandwiches, die sättigen und Kombos freischalten"
+              "detail": "Herzhafte Hauptgerichte wie Omu-Reis, Curry, Pasta und Sandwiches, die Kunden sättigen und Combos freischalten"
             },
             {
               "label": "B",
-              "detail": "Gebäck wie Kuchen, Kekse und Törtchen, das zu Drinks passt und den Bestellwert erhöht"
+              "detail": "Backwaren wie Kuchen, Kekse und Törtchen, die zu Getränken passen und den Bestellwert erhöhen"
             },
             {
               "label": "C",
-              "detail": "Schnelle Drinks wie Tee, Filterkaffee und Floats – geringe Marge, aber hoher Umsatz und schnell serviert"
+              "detail": "Schnelle Getränke wie Tee, Filterkaffee und Floats, geringe Marge, aber hohes Volumen und schnell zu servieren"
             }
           ]
         },
         {
           "order": 4,
           "name": "Maid Cafe Simulator Café-Upgrade-Guide",
-          "description": "Wie sich Café-Erweiterung, Ausstattungs-Upgrades und Einrichtungsverbesserungen wirklich auszahlen – und die Ausgabenreihenfolge, die einen vollen Laden vor dem Ausbluten bewahrt.",
+          "description": "Wie sich Café-Erweiterung, Ausrüstungs-Upgrades und Einrichtungsverbesserungen tatsächlich auszahlen und die Ausgabenreihenfolge, die einen gut besuchten Laden davon abhält, Geld zu verlieren.",
           "href": "/mechanics/maid-cafe-simulator-cafe-upgrades",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Behebe zuerst den aktuellen Engpass – ob Station, Laufweg oder eine zusätzliche Einstellung"
+              "detail": "Behebe zuerst den aktuellen Engpass, sei es eine Station, ein Laufweg oder eine zusätzliche Einstellung"
             },
             {
               "label": "2",
-              "detail": "Halte einen Zutaten- und Nachschubpuffer, damit es in Spitzenzeiten nie eng wird"
+              "detail": "Halte einen Zutaten- und Nachschubpuffer bereit, damit zu Stoßzeiten nie etwas ausgeht"
             },
             {
               "label": "3",
-              "detail": "Bilde dein bestehendes Personal weiter, bevor du es durch neue Kräfte ersetzt"
+              "detail": "Trainiere das Personal, das du bereits hast, bevor du es durch neue Einstellungen ersetzt"
             },
             {
               "label": "4",
-              "detail": "Erweitere Sitzplätze und Deko-Upgrades erst, wenn die Grundlagen solide sind"
+              "detail": "Erweitere Sitzplätze und füge dekorative Upgrades erst hinzu, wenn die Grundlagen solide sind"
             }
           ]
         },
         {
           "order": 5,
           "name": "Maid Cafe Simulator Erfolge-Guide",
-          "description": "Verfolge die Ziele, die einen Durchlauf abschließen – von der gefüllten Story-Galerie über eine gehaltene Sternebewertung bis zum Abschluss jeder Charakterroute.",
+          "description": "Verfolge die Ziele, die einen Durchlauf abschließen, vom Füllen der Story-Galerie und dem Halten einer Sternebewertung bis zum Abschluss jeder Charakter-Route.",
           "href": "/progression/maid-cafe-simulator-unlocks",
           "displayType": "card-list",
           "highlights": [
@@ -286,39 +286,39 @@
             },
             {
               "label": "Sterne",
-              "detail": "Halte eine starke Sternebewertung, indem du Gäste in jeder Schicht zufriedenstellst"
+              "detail": "Halte eine starke Sternebewertung, indem du Kunden in jeder Schicht zufriedenstellst"
             },
             {
               "label": "Routen",
-              "detail": "Schließe jede Charakterroute ab, um die Erfolgsliste zu füllen"
+              "detail": "Schließe jede Charakter-Route ab, um die Erfolgsliste zu füllen"
             }
           ]
         },
         {
           "order": 6,
           "name": "Maid Cafe Simulator Tipps und Tricks",
-          "description": "Praktische Management-Gewohnheiten für Personal, Preise, Nachschub und Tischumschlag – für Spieler, die einen stabileren, profitableren Tag führen wollen.",
+          "description": "Praktische Management-Gewohnheiten für Personal, Preisgestaltung, Nachschub und Tischumschlag, für Spieler, die einen stabileren, profitableren Tag führen wollen.",
           "href": "/mechanics/maid-cafe-simulator-cafe-management",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Vor dem Öffnen",
-              "detail": "Fülle Zutaten auf und teile die Maid-Schichten ein, bevor die Türen öffnen"
+              "label": "Vor der Eröffnung",
+              "detail": "Fülle Zutaten auf und weise Maid-Schichten zu, bevor die Türen öffnen"
             },
             {
-              "label": "Ansturm",
-              "detail": "Setze in Spitzenzeiten Tempo über Perfektion, um die Tische weiterzudrehen"
+              "label": "Stoßzeit",
+              "detail": "Priorisiere Tempo über Perfektion, um in der Spitze die Tische umzuschlagen"
             },
             {
-              "label": "Schließen",
-              "detail": "Prüfe die Verkäufe, zahle Löhne und plane das nächste Upgrade, bevor du aufhörst"
+              "label": "Schließung",
+              "detail": "Überprüfe Verkäufe, zahle Löhne und plane das nächste Upgrade ein, bevor du aufhörst"
             }
           ]
         },
         {
           "order": 7,
           "name": "Maid Cafe Simulator Story-Guide",
-          "description": "Wie Story-Kapitel, Maid-Bond-Events und Routen-Flags zusammenspielen und was ein wahres Ende von einem neutralen oder Fehlschlag-Ausgang trennt.",
+          "description": "Wie die Story-Kapitel, Maid-Bond-Events und Routen-Flags zusammenpassen und was ein wahres Ende von einem neutralen oder Fehlschlag-Ergebnis unterscheidet.",
           "href": "/progression/maid-cafe-simulator-endings",
           "displayType": "card-list",
           "highlights": [
@@ -328,7 +328,7 @@
             },
             {
               "label": "Route",
-              "detail": "Maximale Zuneigung zu einer einzigen Figur schaltet ihr eigenes Finale frei"
+              "detail": "Maximale Zuneigung zu einem einzelnen Charakter schaltet dessen eigenes Finale frei"
             },
             {
               "label": "Solo",
@@ -345,76 +345,76 @@
           "highlights": [
             {
               "label": "News",
-              "detail": "Devlogs und Ankündigungen erscheinen zuerst auf der Store-Seite und im Community-Hub"
+              "detail": "Devlogs und Ankündigungen erscheinen zuerst auf der Shop-Seite und im Community-Hub"
             },
             {
               "label": "Demo",
-              "detail": "Eine spielbare Demo zeigt die ersten Schichten vor dem vollständigen Release"
+              "detail": "Eine spielbare Demo zeigt die Eröffnungsschichten vor der Vollversion"
             },
             {
               "label": "Patch",
-              "detail": "Balance-Änderungen und Fixes kommen über regelmäßige Store-Updates"
+              "detail": "Balance-Änderungen und Fixes kommen über regelmäßige Shop-Updates"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Häufige Fragen",
-      "description": "Schnelle Antworten auf die häufigsten Fragen zu Maid Cafe Simulator von neuen Café-Besitzern.",
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Maid Cafe Simulator-Fragen von neuen Café-Besitzern.",
       "items": [
         {
           "question": "Was ist Maid Cafe Simulator?",
-          "answer": "Maid Cafe Simulator ist eine gemütliche Ego-Management-Simulation, in der du ein Themen-Maid-Café führst. Du platzierst Gäste, nimmst Bestellungen auf, bereitest Drinks und Desserts zu, bedienst Tische, verdienst Trinkgeld, füllst Zutaten auf, stellst Maids ein und bildest sie aus und baust das Café aus, während dein Ruf wächst."
+          "answer": "Maid Cafe Simulator ist eine gemütliche First-Person-Management-Simulation, in der du ein thematisches Maid-Café führst. Du platzierst Gäste, nimmst Bestellungen auf, bereitest Getränke und Desserts zu, bedienst Tische, verdienst Trinkgeld, füllst Zutaten auf, stellst Maids ein und trainierst sie und baust das Café aus, während dein Ruf wächst."
         },
         {
           "question": "Welche Maid sollte ich in Maid Cafe Simulator zuerst einstellen?",
-          "answer": "Stelle nach dem Spitzenwert ein, nicht nach dem Durchschnitt. Eine fröhliche Begrüßerin mit hohem Charme passt an die Tür, eine schüchterne Perfektionistin mit starker Genauigkeit an VIP-Tische – und eine zuverlässige Servicekraft in den ersten Tagen ist meist der günstigste Weg, den Durchsatz zu erhöhen."
+          "answer": "Stelle nach dem Spitzenwert ein, nicht nach dem Durchschnitt. Eine Fröhliche Begrüßerin mit hohem Charme passt an die Tür, eine Schüchterne Perfektionistin mit starker Genauigkeit eignet sich für VIP-Tische, und eine zuverlässige Servicekraft in den ersten Tagen ist normalerweise der günstigste Weg, den Durchsatz in Maid Cafe Simulator zu erhöhen."
         },
         {
           "question": "Wie verdiene ich in Maid Cafe Simulator schnell Geld?",
-          "answer": "Die Servicegeschwindigkeit treibt dein Geld in Maid Cafe Simulator stärker als jeder einzelne Kauf. Halte das Menü knapp, damit Bestellungen schnell abgearbeitet werden, fülle vor dem Ansturm auf, damit du keinen Verkauf verlierst, und lass Trinkgeld und Ruf sich aufsummieren, statt auf eine große Auszahlung zu setzen."
+          "answer": "Die Servicegeschwindigkeit treibt Maid Cafe Simulator-Geld stärker voran als jeder einzelne Kauf. Halte die Speisekarte knapp, damit Bestellungen schnell abgearbeitet werden, fülle vor dem Ansturm auf, damit du nie einen Verkauf verlierst, und lass Trinkgelder und Ruf sich vermehren, statt einer großen Einmalauszahlung nachzujagen."
         },
         {
           "question": "Was sollte ich in Maid Cafe Simulator zuerst ausbauen?",
-          "answer": "Behebe zuerst den aktuellen Engpass – ob langsame Station, blockierter Laufweg oder eine zusätzliche Einstellung. Danach baust du einen Zutatenpuffer auf, schulst dein bestehendes Personal und erweiterst erst dann Sitzplätze und Deko-Upgrades."
+          "answer": "Behebe zuerst den aktuellen Engpass, sei es eine langsame Station, ein blockierter Laufweg oder eine zusätzliche Einstellung. Danach baue einen Zutatenpuffer auf, trainiere dein bestehendes Personal und erweitere erst dann Sitzplätze und füge dekorative Upgrades hinzu."
         },
         {
           "question": "Hat Maid Cafe Simulator mehrere Enden?",
-          "answer": "Ja. Die Enden von Maid Cafe Simulator teilen sich meist in ein wahres Ende, Charakterrouten-Enden, ein Solo-Karriere-Ende, einen neutralen Ausgang und Fehlschlag-Enden, wobei das Ergebnis an festen Punkten spät im Durchlauf geprüft wird, nicht in der letzten Woche."
+          "answer": "Ja. Maid Cafe Simulator-Enden teilen sich üblicherweise in ein wahres Ende, Charakter-Routen-Endden, ein Solo-Karriere-Ende, ein neutrales Ergebnis und Fehlschlag-Endden, wobei das Ergebnis an festen Punkten spät im Durchlauf statt in der letzten Woche geprüft wird."
         }
       ]
     },
     "finalCta": {
       "title": "Bereit, dein Maid-Café zu führen?",
-      "description": "Von deiner ersten Schicht hinter dem Tresen bis zu drei Maidchelin-Sternen: Unser Community-Wiki versorgt dich mit kostenlosen, aktuellen Maid Cafe Simulator-Guides.",
-      "primary": "Einsteiger-Guide lesen",
+      "description": "Von deiner ersten Schicht hinter dem Tresen bis zu drei Maidchelin-Sternen deckt unser Community-Wiki dich mit kostenlosen, aktuellen Maid Cafe Simulator-Guides ab.",
+      "primary": "Lies den Einsteiger-Guide",
       "secondary": "Auf Steam spielen"
     }
   },
   "guide": {
     "overviewTitle": "Maid Cafe Simulator Einsteiger-Guides",
-    "overviewDescription": "Starte stark mit Einsteiger-Guides zu Maid Cafe Simulator – erste Schichten, Personal, Preise und die frühen Upgrades, die dein Café profitabel halten."
+    "overviewDescription": "Starte stark mit Maid Cafe Simulator Einsteiger-Guides zu den ersten Schichten, Personal, Preisgestaltung und den frühen Upgrades, die dein Café profitabel halten."
   },
   "mechanics": {
     "overviewTitle": "Maid Cafe Simulator Café-Mechaniken",
-    "overviewDescription": "Erfahre, wie die Café-Mechaniken von Maid Cafe Simulator zusammenspielen: Rezepte, Bestellungen, Einstellung, Maid-Fähigkeiten und die Upgrades, die deine Tageseinnahmen skalieren."
+    "overviewDescription": "Lerne, wie die Maid Cafe Simulator Café-Mechaniken zusammenwirken: Rezepte, Bestellungen, Einstellung, Maid-Fähigkeiten und die Upgrades, die deine täglichen Einnahmen skalieren."
   },
   "characters": {
-    "overviewTitle": "Maid Cafe Simulator Charaktere und Maids",
-    "overviewDescription": "Lerne jeden Charakter und Maid-Archetyp von Maid Cafe Simulator kennen – von Katzen-Maids bis zu Halbmenschen-Personal – und erfahre, wie du sie anwirbst, einteilst und anfreundest."
+    "overviewTitle": "Maid Cafe Simulator Charaktere & Maids",
+    "overviewDescription": "Lerne jeden Maid Cafe Simulator-Charakter und Maid-Archetyp kennen, von Katzen-Maids bis zu demihumanem Personal, und erfahre, wie du sie rekrutierst, einplanst und anfreundest."
   },
   "items": {
-    "overviewTitle": "Maid Cafe Simulator Menü und Items",
-    "overviewDescription": "Plane dein Menü in Maid Cafe Simulator mit Guides zu Drinks, Essen, Deko und Café-Items, die Preise, Bewertungen und Kundenzufriedenheit erhöhen."
+    "overviewTitle": "Maid Cafe Simulator Menü & Items",
+    "overviewDescription": "Plane dein Maid Cafe Simulator-Menü mit Guides zu Getränken, Speisen, Dekorationen und Café-Items, die Preise, Bewertungen und Kundenzufriedenheit erhöhen."
   },
   "progression": {
     "overviewTitle": "Maid Cafe Simulator Fortschritt",
-    "overviewDescription": "Verfolge den Fortschritt in Maid Cafe Simulator von den ersten Münzen bis zu späten Freischaltungen – inklusive Geldverdienen, Level, Hard Mode und jedem Ende."
+    "overviewDescription": "Verfolge den Maid Cafe Simulator-Fortschritt von deinen ersten Münzen bis zu späten Unlocks, einschließlich Geldverdienen, Level, Hard Mode und jedem Ende."
   },
   "controls": {
-    "overviewTitle": "Maid Cafe Simulator Steuerung und Koop",
-    "overviewDescription": "Richte Steuerung, Tastenbelegung, Grafik und Koop in Maid Cafe Simulator ein, damit du zwischen Tresen, Küche und Tischen wechselst, ohne mit der Kamera zu kämpfen."
+    "overviewTitle": "Maid Cafe Simulator Steuerung & Koop",
+    "overviewDescription": "Richte Maid Cafe Simulator-Steuerung, Tastenbelegung, Grafik und Koop ein, damit du dich zwischen Tresen, Küche und Tischen bewegen kannst, ohne gegen die Kamera zu kämpfen."
   },
   "mods": {
     "overviewTitle": "Maid Cafe Simulator Mods",
@@ -435,27 +435,27 @@
     "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!",
     "popularGuides": "Beliebte Guides",
     "beginnerGuide": "Einsteiger-Guide",
-    "recipeGuide": "Rezept-Guide",
+    "recipeGuide": "Rezepte-Guide",
     "moneyGuide": "Geld-Guide"
   },
   "footer": {
     "aboutTitle": "Maid Cafe Simulator Wiki",
-    "about": "Maid Cafe Simulator Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Café-Management, Drink-Rezepten, Maid-Charakteren, Upgrades und wichtigem Spielwissen für neue wie erfahrene Spieler.",
+    "about": "Maid Cafe Simulator Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub, der Café-Management, Getränkerezepte, Maid-Charaktere, Upgrades und essenzielles Spielwissen für neue und erfahrene Spieler gleichermaßen abdeckt.",
     "quickLinks": "Schnelllinks",
     "guides": "Guides",
     "legal": "Rechtliches",
     "copyright": "2026 Maid Cafe Simulator Wiki. Nicht mit Accelix oder SCON verbunden.",
-    "description": "Gemütliche Ego-Maid-Café-Management-Simulation auf Steam. Führe das Café, bediene Gäste und jage drei Maidchelin-Sterne.",
+    "description": "Gemütliche First-Person-Maid-Café-Management-Simulation auf Steam. Führe das Café, bediene Kunden und jage drei Maidchelin-Sterne.",
     "playGame": "Auf Steam spielen",
     "officialDiscord": "Offizieller Discord",
     "officialYoutube": "Offizielles YouTube",
     "officialTwitter": "Offizielles X (Twitter)",
     "officialSite": "Offizielle Website",
     "beginnerGuide": "Einsteiger-Guide",
-    "privacyPolicy": "Datenschutzerklärung",
+    "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen",
     "maidGuides": "Maid-Guides",
-    "recipeGuides": "Rezept-Guides",
+    "recipeGuides": "Rezepte-Guides",
     "moneyGuides": "Geld-Guides"
   }
 }
