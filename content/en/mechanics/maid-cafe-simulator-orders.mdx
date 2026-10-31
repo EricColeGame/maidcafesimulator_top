@@ -1,73 +1,25 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: What the Steam Page Actually Confirms",
-  description: "A grounded look at Maid Cafe Simulator on Steam: advertised cafe management features, what is undocumented, and how to verify details yourself.",
+  title: "Maid Cafe Simulator Orders: Mixing, Serving, Scanning, and Change",
+  description: "How orders flow in Maid Cafe Simulator, from mixing and serving to receipt scanning and change, plus the registered-recipe and infinite-quantity fixes.",
   category: "mechanics",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator is a first-person cafe management game from developers Accelix and SCON, released on Steam on 7 October 2026 as app 3232690. If you have seen the store page or a trailer and you are trying to work out what kind of game it really is, the honest answer starts with one distinction: some of what you will read online comes from the official Steam description, and a lot of the rest is guesswork dressed up as fact. This article sticks to the advertised feature set, flags what is not documented, and explains how to check anything you are unsure about without relying on someone else's assumptions.
+Order handling in Maid Cafe Simulator is hands-on: mix drinks, serve customers, scan receipts, and count out change. When orders pile up, maids can share the workload. Ingredients are ordered on your phone and delivered by a Maidroid courier.
 
-## The official pitch, in plain terms
+**Stations and registered recipes.** Since v1.21, stations without a registered recipe show "Register recipe" instead of "Cook". The wish step "Register a recipe at a Cook Station with the quantity set to ∞" was fixed in v1.20.38, and saves stuck on it can continue. v1.21 also shows sale prices on the station recipe selection screen, and a progress border appears on the recipe icon while a maid cooks.
 
-According to the Steam store description, you inherit a rundown cafe and set about turning it into a working maid cafe. A kemonomimi girl is described as changing everything, which suggests she plays a central role in the story rather than appearing as background flavor. The description also states there are five maids, and that each of them has a secret.
+**Momo's wish step bug.** v1.20.38 fixed both "Double-check Momo's Cook task on the Chalkboard" and the infinite-quantity registration step not completing. Existing saves were not reset.
 
-The stated goal is three Maidchelin stars. That is the game's own framing for progression, and it is worth treating as the headline objective rather than a side activity. The description does not explain how stars are awarded, how many attempts you get, or whether they can be lost once earned.
+**Priorities.** Since v1.20, maids take on cooking stations for the pricier items on sale first.
 
-Day-to-day work, as advertised, covers mixing drinks, serving customers, scanning receipts, counting change, and ordering ingredients by phone through a Maidroid courier. Those are concrete, hands-on tasks rather than menu abstractions, which fits the first-person framing. You can read the description yourself on the official [Maid Cafe Simulator Steam page](https://store.steampowered.com/app/3232690/) if you want to compare it against anything you have been told.
+**Practical suggestion.** Check chalkboard and station settings before assuming a wish is stuck; the two known blockers are patched as of v1.20.38.
 
-| Advertised on Steam | Status |
-|---|---|
-| Inherit and rebuild a rundown cafe | Confirmed in store description |
-| Five maids, each with a secret | Confirmed in store description |
-| Goal of three Maidchelin stars | Confirmed in store description |
-| Mixing drinks, serving customers | Confirmed in store description |
-| Scanning receipts, counting change | Confirmed in store description |
-| Ordering ingredients via Maidroid courier | Confirmed in store description |
-| Full recipe list, prices, maid stats, codes | Not published on the store page |
+**Automation.** The official notes checked here do not describe a hidden order-automation feature.
 
-## What "not documented" actually means here
-
-This is the part most write-ups skip. The Steam page does not publish a complete recipe list, item prices, maid stat tables, or any code system. That is not a gap in research on my part; it is simply what the official material contains. A store description is a sales page, not a manual, and it is normal for it to omit exact numbers.
-
-The practical consequence is that you should be skeptical of any list that presents exact recipe values, precise prices, or stat spreads as established fact. If a page shows a tidy table of drink recipes with exact ingredient ratios and claims it is authoritative, ask where the numbers came from. Unless the developers published them or players extracted them from the game files with evidence, that table is either approximated or invented.
-
-Third-party guides, where they exist, are secondary observations. That does not make them useless, but it does mean you should attribute them correctly and treat them as one player's experience rather than developer documentation. Community wikis are usually the honest middle ground: they tend to label unknown values as unknown.
-
-## Managing a cafe without a published spreadsheet
-
-Because the specifics are not documented, the sensible approach is to learn the game by playing it and by testing one thing at a time. General management practice for this kind of simulator is fairly consistent, and none of it depends on knowing hidden numbers.
-
-Start by understanding the loop before optimizing it. Take an order, mix the drink, serve it, then handle the payment step. Scanning receipts and counting change are manual tasks here, which means errors cost you time and possibly accuracy. Slow down and get the routine right before you try to move quickly.
-
-Treat ingredient ordering as a budget question, not a hoarding question. Ordering by phone through the Maidroid courier implies a delivery step you have to plan around, so ordering before you run out matters more than ordering in bulk. Watch how fast each ingredient actually gets used during a shift, and adjust from there rather than guessing on day one.
-
-With the maids, pay attention to how each one behaves during service. Since the description says each has a secret, it is reasonable to expect that learning about them is part of progression, but how that interacts with cafe performance is not stated anywhere official. Experiment, and note what changes.
-
-Spend time getting to know the five maids. In a game that advertises secrets for each of them, the story content is likely to be a significant part of the appeal, and rushing past it to chase stars may mean missing the point. Likewise, keep an eye on how the kemonomimi character fits into events, since the description credits her with changing everything.
-
-## How to verify anything you read
-
-The reliable method is boring but effective. First, check the official Steam page for the current description and any developer announcements. Second, load the game and test the specific claim yourself: place an order, mix a drink, scan a receipt, count change, and see what the game actually expects.
-
-If someone claims a particular recipe, price, or stat value, ask whether they found it in the game or copied it from somewhere else. If a number cannot be reproduced in your own save, it is not something to build a strategy around. Do not assume that a code system exists just because other games in the genre have one. The store page does not mention codes, so any code list you encounter should be treated as unverified until the developers say otherwise.
-
-## A realistic expectation to set
-
-Maid Cafe Simulator presents itself as a hands-on management game with a story layer built around five maids and the goal of three Maidchelin stars. The advertised tasks are specific, the numbers are not, and no article can promise you a clean run to three stars. What you can do is learn the systems methodically, keep your ingredient orders sensible, serve accurately, and engage with the maid storylines instead of treating them as noise. Anything beyond that is best confirmed by playing, or by watching the official [Steam listing](https://store.steampowered.com/app/3232690/) for updates.
-
-## FAQ
-
-**Is Maid Cafe Simulator a real game?**
-Yes. It is listed on Steam as app 3232690 by developers Accelix and SCON, released 7 October 2026.
-
-**How many maids are there?**
-The store description states there are five maids, each with a secret.
-
-**Are there published recipes or prices?**
-No. The Steam page does not publish a recipe list, item prices, or maid stat tables. Any such list is a third-party observation, not official documentation.
-
-**Does the game have codes?**
-Nothing in the official description mentions a code system, so treat code lists as unverified.
-
-**Can I guarantee three Maidchelin stars?**
-No. The goal is advertised, but the criteria are not documented, and no guide can promise a specific outcome.
+Sources:
+- [Official Steam store listing](https://store.steampowered.com/app/3232690/?l=english)
+- [Our 19th Update - v1.21](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [Our 18th Update - v1.20.38 Hotfix](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706688767)
+- [Our 17th Update - v1.20](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)

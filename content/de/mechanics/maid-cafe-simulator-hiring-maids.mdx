@@ -1,99 +1,23 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: Ein praktischer Leitfaden zum Steam-Café-Spiel",
-  description: "Maid Cafe Simulator ist ein First-Person-Café-Management-Spiel auf Steam. Hier erfährst du, was verifiziert ist, was von der Community berichtet wird und was nicht dokumentiert ist.",
+  title: "Maid Cafe Simulator Maids einstellen: Story-Beitritte statt zufälliger Anwerbungen",
+  description: "Wie die fünf Maids in Maid Cafe Simulator beitreten, wann Jennie und Momo ankommen, Yukis Morgenszene und wie sich die Hall-Slots auf 3, 4 oder 5 erweitern.",
   category: "mechanics",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator ist ein First-Person-Café-Management-Spiel der Entwickler Accelix und SCON, das am 7. Oktober 2026 auf Steam unter der App-ID 3232690 veröffentlicht wurde. Du erbst ein heruntergekommenes Café, stellst Dienstmädchen ein, mischst Getränke, bedienst Kundschaft, scannst Quittungen, zählst Wechselgeld und bestellst Zutaten per Telefon. Das langfristige Ziel sind drei Maidchelin-Sterne. Unterwegs lernst du fünf Dienstmädchen kennen, von denen jedes ein Geheimnis hat.
+Maid Cafe Simulator hat fünf namentlich bekannte Maids, und sie treten durch den Story-Fortschritt bei, nicht durch zufällige Einstellungen. Die hier geprüften offiziellen Notizen beschreiben keinen Rekrutierungspool und keine zufälligen Bewerber.
 
-Das ist der Rahmen, den dir die [offizielle Steam-Store-Seite](https://store.steampowered.com/app/3232690/) gibt. Es ist ein klarer Rahmen, aber auch ein kurzer. Im Folgenden findest du eine praktische Aufschlüsselung dessen, was die Store-Seite tatsächlich bestätigt, was Spieler in Drittanbieter-Guides berichtet haben und wo die Dokumentation einfach aufhört.
+**Jennie und Momo.** Diese beiden treten über die 2-Sterne-Maidchelin-Stufe bei. v1.20 setzte diese Stufe auf Café-Lv12 und 16 Rezepte, wobei Fruit Blend für die 2-Sterne-Prüfung erforderlich ist. v1.21 verschob sie erneut auf Café-Lv11; die alte Voraussetzung war Café-Lv12 in v1.20 und Lv13 davor. Die 1-Sterne-Maidchelin-Stufe benötigt in v1.21 nun Café-Lv7 (war Lv8).
 
-## Was die Store-Seite tatsächlich bewirbt
+**Yuki.** Seit v1.21 wird Yukis Beitrittsgeschichte nicht mehr automatisch abgespielt, wenn du schlafen gehst. Sie beginnt, wenn du am nächsten Morgen vor dem Laden mit Yuki sprichst. Auch Episode 5 beginnt am Morgen vor der Öffnung.
 
-Die Steam-Beschreibung ist konkret, was die Form des Spiels angeht. Du spielst in der First-Person-Perspektive. Du beginnst mit einem heruntergekommenen Café statt mit einem funktionierenden Betrieb. Ein Kemonomimi-Mädchen verändert alles, was eher auf einen Story-Hook als auf reines Management-Grinding hindeutet. Du stellst insgesamt fünf Dienstmädchen ein, und jedes hat ein Geheimnis.
+**Hall-Slots pro Erweiterungsstufe.** Die Notizen zu v1.21 geben an, dass Beschreibungen der Hall-Erweiterung nun zeigen, wie viele Maids auf jeder Stufe arbeiten können: 3, 4 oder 5. Ein voller Arbeitsplan zeigt nun an, ob eine Erweiterung der Hall Slots hinzufügt. Die erste Hall-Erweiterung wird über Minas Wunsch statt über eine Hauptquest angeleitet (v1.21).
 
-Die verifizierte Aufgabenliste ist kurz, aber konkret:
+**Nicht dokumentiert.** Löhne, Einstellungskosten und konkrete Maid-Eigenschaften werden in den hier geprüften Quellen nicht genannt. Ein Jennie-Wunsch, „ihre Eigenschaften zu prüfen“, wird erwähnt, sein Inhalt jedoch nicht.
 
-- Getränke mixen
-- Kundschaft bedienen
-- Quittungen scannen
-- Wechselgeld zählen
-- Zutaten per Telefon bei einem Maidroid-Kurier bestellen
-- Auf drei Maidchelin-Sterne hinarbeiten
-
-Die Store-Seite veröffentlicht keine vollständige Rezeptliste, Artikelpreise, Dienstmädchen-Statustabellen oder ein Codesystem. Das ist wichtig, denn ein Großteil des Suchverkehrs rund um ein solches Spiel kommt von Spielern, die auf eine Nachschlagetabelle hoffen. Das offizielle Listing bietet keine. Wenn eine Zahl, ein Rezept oder ein Code nicht auf der Steam-Seite steht oder im Spiel genannt wird, behandle sie als unbestätigt.
-
-## Wie der Core-Loop zusammenpasst
-
-Da die verifizierte Feature-Liste konkret ist, kannst du über den Loop nachdenken, ohne etwas zu erfinden. Der Spieler verrichtet drei Arten von Arbeit gleichzeitig:
-
-| Ebene | Spieleraktion | Warum sie wichtig ist |
-|---|---|---|
-| Service | Getränke mixen, Kundschaft bedienen | Direktes Einkommen und Ruf |
-| Transaktion | Quittungen scannen, Wechselgeld zählen | Genauigkeit und Kundenzufriedenheit |
-| Versorgung | Telefonbestellungen mit Maidroid-Kurier | Hält das Menü verfügbar |
-
-Ein First-Person-Café-Spiel macht diese Ebenen haptisch. Eine Quittung zu scannen und Wechselgeld zu zählen, ist in diesem Rahmen manuelle Arbeit, nicht ein Knopf mit der Aufschrift „Verkauf abschließen". Das verändert den Fehlermodus: Fehler sind deine Fehler, nicht die des Spiels. Allgemeine Praxis in dieser Art von Sim ist, beim Transaktionsschritt langsamer zu werden statt zu hetzen, denn eine falsche Bestellung oder falsches Wechselgeld kostet Zeit und möglicherweise Ruf, den du in einer einzigen Schicht nicht zurückbekommst.
-
-Die Versorgungsebene ist diejenige, die einen neuen Spieler am ehesten bestraft. Wenn du nur bestellst, wenn du leer bist, verbringst du einen Teil jeder Schicht damit, auf einen Kurier zu warten. Eine vernünftige Gewohnheit ist, den Bestand nach jeder Schicht zu prüfen statt während einer. Das ist allgemeiner Management-Rat, keine dokumentierte Strategie der Entwickler.
-
-Das Sternesystem ist die sichtbare Fortschrittsmetrik. Die Store-Seite bestätigt drei Maidchelin-Sterne als Ziel, beschreibt aber nicht die Anforderungen. Wer genaue Sterneschwellen behauptet, arbeitet mit Beobachtung, nicht mit Dokumentation.
-
-## Die fünf Dienstmädchen und ihre Geheimnisse
-
-Die Store-Seite bestätigt fünf Dienstmädchen, jedes mit einem Geheimnis, und ein Kemonomimi-Mädchen, das alles verändert. Sie bestätigt keine Namen, Persönlichkeiten, Romanzen-Routen oder Freischaltbedingungen.
-
-Diese Lücke hat ein vorhersehbares Maß an Spekulation erzeugt. Drittanbieter-Guides haben Behauptungen über die Story-Entwicklung der Dienstmädchen aufgestellt, aber die offizielle Seite bestätigt weder konkrete Namen noch Stats oder Routen-Trigger. Behandle solche Guides als sekundäre Beobachtungen anderer Spieler, nicht als Entwicklerdokumentation. Wenn du wissen willst, ob ein Dienstmädchen eine Route, eine Geschenkpräferenz oder einen Zeitplan hat, ist die zuverlässige Methode, selbst zu spielen und zu beobachten oder nach einem In-Game-Menü zu suchen, das Beziehungen verfolgt.
-
-Was man vernünftigerweise sagen kann, ohne etwas zu erfinden: Ein Spiel mit fünf Charakteren, die jeweils ein Geheimnis haben, wird Story-Enthüllungen wahrscheinlich über die Kampagne verteilen, statt sie vorneweg zu laden. Das passt zur Prämisse, mit einem heruntergekommenen Café zu beginnen und auf drei Sterne hinzuarbeiten. Es ist eine Design-Schlussfolgerung, keine Tatsache von der Seite.
-
-## Was nicht dokumentiert ist und wie man es überprüft
-
-Das ist der Teil, den die meisten Artikel überspringen. Für Maid Cafe Simulator ist Folgendes nicht im offiziellen Steam-Listing dokumentiert:
-
-- Eine vollständige Getränkerezeptliste
-- Artikelpreise oder Zutatenkosten
-- Dienstmädchen-Statustabellen oder Einstellungskosten
-- Details zu den Sternanforderungen
-- Ein Codesystem, Cheat-Code oder Freischaltcode
-- Enden oder Routen-Ergebnisse
-- Patch-Notes über das Release-Listing hinaus
-
-Wenn du eines davon als Tatsache dargestellt siehst, prüfe die Quelle. Die richtigen Orte zur Überprüfung sind das Spiel selbst nach dem Kauf, die offizielle Steam-Seite und Entwicklerankündigungen, falls welche erscheinen. Beachte, dass die Store-Beschreibung auch mit „und mehr" endet, was ein ehrliches Signal dafür ist, dass das Listing nicht erschöpfend ist.
-
-Eine praktische Konsequenz: Du kannst keinen optimalen Durchlauf anhand veröffentlichter Daten planen, weil veröffentlichte Daten noch nicht existieren. Frühes Spielen ist standardmäßig explorativ. Das ist kein Fehler des Spiels, es ist einfach der Zustand der Dokumentation.
-
-## Ein praktischer Ansatz für einen ersten Durchlauf
-
-Angesichts dessen, was bestätigt ist, hier ein sinnvoller Einstieg, ohne vorzugeben, Geheimnisse zu kennen:
-
-1. Lerne den Transaktionsschritt, bevor du irgendetwas anderes optimierst. Quittungen scannen und Wechselgeld zählen ist in der First-Person-Ansicht eine manuelle, fehleranfällige Aktion. Geschwindigkeit kommt nach Genauigkeit.
-2. Halte das Menü zunächst klein. Ein kürzeres Menü ist leichter nachzufüllen und leichter korrekt auszuführen unter Zeitdruck.
-3. Prüfe den Bestand zwischen den Schichten, nicht währenddessen. Die Maidroid-Telefonbestellung existiert, damit du außerhalb des Spitzenbetriebs nachbestellen kannst.
-4. Sprich mit den Dienstmädchen. Fünf Charaktere mit Geheimnissen implizieren, dass Gespräche wichtig sind. Sie zu ignorieren blockiert wahrscheinlich Story-Inhalte.
-5. Beobachte den Sternfortschritts-Bildschirm, falls es einen gibt, statt zu raten. Das Spiel wird dir sagen, was es will, bevor es ein Wiki tut.
-
-Nichts davon garantiert drei Maidchelin-Sterne. Es entfernt nur vermeidbare Fehler, während du die Systeme lernst, die die Store-Seite tatsächlich beschreibt.
-
-## FAQ
-
-**Wann wurde Maid Cafe Simulator veröffentlicht?**
-Am 7. Oktober 2026, laut dem offiziellen Steam-Listing für App 3232690.
-
-**Wer hat es entwickelt?**
-Accelix und SCON, laut der Steam-Store-Seite.
-
-**Ist es First-Person?**
-Ja. Die Store-Beschreibung rahmt das Café-Management aus einer First-Person-Perspektive.
-
-**Gibt es Cheat-Codes oder ein Codesystem?**
-Die offizielle Seite veröffentlicht keines. Jede kursierende Code-Liste ist unbestätigt.
-
-**Wie viele Dienstmädchen gibt es?**
-Fünf, jedes mit einem Geheimnis, laut der Store-Seite.
-
-**Kann ich eine vollständige Rezeptliste finden?**
-Nicht im offiziellen Listing. Rezepte werden im Spiel gelernt oder von anderen Spielern aus zweiter Hand berichtet.
-
-Für den maßgeblichen Funktionsumfang prüfe direkt die [Steam-Store-Seite](https://store.steampowered.com/app/3232690/), da sie die einzige Quelle ist, die widerspiegelt, wozu sich die Entwickler tatsächlich verpflichtet haben.
+Quellen:
+- [Offizielle Steam-Shop-Seite](https://store.steampowered.com/app/3232690/?l=english)
+- [Unser 19. Update - v1.21](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [Unser 18. Update - v1.20.38 Hotfix](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706688767)
+- [Unser 17. Update - v1.20](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)

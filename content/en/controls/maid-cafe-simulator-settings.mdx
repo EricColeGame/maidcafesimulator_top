@@ -1,88 +1,24 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: What the Steam Page Actually Confirms",
-  description: "A grounded look at Maid Cafe Simulator on Steam: advertised features, what third-party guides add, and what is simply undocumented.",
+  title: "Maid Cafe Simulator Settings: Mode Selection and Audio",
+  description: "What the official notes say about the per-save difficulty mode, sound volume categories and reporting bugs, without invented sliders.",
   category: "controls",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator arrived on Steam on 7 October 2026 from developers Accelix and SCON, and it is easy to find confident-sounding writeups about it that never say where their numbers came from. This article does the opposite. Everything below is sorted into three buckets: what the official Steam listing advertises, what third-party guides claim as observation, and what nobody has documented in a verifiable way. If you are deciding whether to buy, or you already own it and want to know which "tips" to trust, that sorting is the useful part.
+The official notes checked here mention a few settings and one sound fix, but they do not publish a full settings menu walkthrough or list of sliders.
 
-## The Official Pitch, Straight From the Store Page
+Confirmed settings-related items
 
-The [Steam listing](https://store.steampowered.com/app/3232690/) describes a first-person cafe management simulator with a clear loop. You inherit a rundown cafe. A kemonomimi girl shows up and changes everything. You build the place into a maid cafe staffed by five maids, each of whom has a secret. The stated goal is three Maidchelin stars.
+- Mode selection: when starting a new game you choose Normal Mode or Story Mode. In Story Mode, cafe XP, Bond and income are doubled and most cafe-running challenge is removed. The setting is saved per save file and appears on the load screen and pause menu, and cannot be changed after choosing (v1.21).
+- Sound: the store lists "Custom Volume Controls" as a feature. v1.20 fixed the puppy's and judge's wish voice lines ignoring volume settings; they now follow the sound-effects volume. That confirms at least a sound-effects category separate from other audio. An earlier demo update (v1.16.22) also added graphics quality presets and an option to turn off screen shake, though the official notes do not describe those current menus.
+- Bug reporting: F8 or the Report Bug option in the ESC menu.
 
-The advertised moment-to-moment work is concrete and hands-on:
+Not documented in these sources: the full list of sliders, keybind remapping, current graphics presets or a language submenu. The store lists eight supported languages, with full audio marked for Korean, but does not describe a settings submenu. For exact options, check the in-game settings menu.
 
-- Mixing drinks
-- Serving customers
-- Scanning receipts
-- Counting change
-- Ordering ingredients by phone, with a Maidroid courier handling delivery
+Sources
 
-That list matters because it tells you what kind of game this is. Scanning receipts and counting change are not menu abstractions; they suggest the game asks you to physically handle transactions at the counter. The phone ordering plus courier suggests a supply step between serving shifts. The five maids with secrets suggests a narrative layer running alongside the management layer.
-
-What the store page does **not** publish is just as important. There is no full recipe list, no item price table, no maid stat breakdown, and no code system. Anyone presenting those as documented facts is going beyond the official material.
-
-## Advertised vs. Observed vs. Unknown
-
-| Category | Status | Examples |
-|---|---|---|
-| Advertised on Steam | Official | Rundown cafe inheritance, five maids with secrets, three Maidchelin stars, drink mixing, serving, receipt scanning, change counting, phone ordering via Maidroid courier |
-| Claimed by third-party guides | Secondary, unverified | Specific recipe ratios, optimized shift routines, maid preference rankings |
-| Not documented anywhere reliable | Unknown | Full recipe list, item prices, maid stat tables, endings, cheat codes, hotkeys, patch history |
-
-The middle row deserves caution. Third-party guides can be genuinely helpful, but they are observations from someone's playthrough, not developer documentation. A guide author's "best" maid or "correct" recipe order may reflect their save file, their difficulty, or a build that has since changed. Treat those claims as hypotheses to test, not rules.
-
-## What "Scanning Receipts and Counting Change" Really Implies
-
-This is the most distinctive advertised feature, and it is worth thinking through rather than skimming past.
-
-If the game makes you scan a receipt and then count out change, the failure states are probably operational: a slow transaction, a wrong total, a queue forming. That is a different skill from optimizing a menu. It rewards accuracy and speed at the counter, not just knowing which drink sells best.
-
-Practical reasoning follows from that. If your shifts feel chaotic, the bottleneck may not be your recipes at all — it may be your transaction handling. The way to check is to watch where your time actually goes during a shift: at the mixing station, at the register, or walking between them. The game does not publish a stat screen that tells you this, so observation during play is the only honest method.
-
-## Building Toward Three Maidchelin Stars
-
-The store page names three Maidchelin stars as the goal without explaining the scoring. That is a deliberate omission, and it means any article claiming to know the exact star thresholds is guessing.
-
-What you can reason about safely:
-
-**Quality and consistency likely both matter.** A star system named after a real-world dining guide implies evaluation of what you serve, not just how much you sell. General management practice — serve what you have practiced, keep the menu within what you can execute cleanly — applies.
-
-**Staffing is probably part of it.** Five maids with individual secrets implies you will learn their dispositions over time. General practice: rotate who covers which role and pay attention to whether service quality changes, rather than assuming a fixed optimal assignment.
-
-**Supplies gate everything.** Phone ordering through a Maidroid courier means running out of an ingredient can stop a shift. Checking stock before a shift is ordinary good practice, not a secret technique.
-
-None of this guarantees stars. It is reasoning from the advertised design, and the game's actual scoring is something you verify by playing and watching what changes after each shift.
-
-## The Five Maids and Their Secrets
-
-This is the narrative hook, and the store page is explicit that each of the five maids has a secret. It says nothing about what those secrets are, how they unlock, or whether they affect the management layer mechanically.
-
-If you are playing primarily for the story, the sensible approach is to spend time with each maid rather than optimizing them into a role and forgetting them. The game is described as letting you get to know them, which suggests interaction is available outside pure task assignment. How that interaction is triggered is not documented, so the way to find out is to try talking to each maid across multiple in-game days and see what changes.
-
-Be skeptical of any list claiming to reveal the secrets in order. If such a list existed as official material, it would be on the store page or in developer posts, and it is not.
-
-## FAQ
-
-**Who developed Maid Cafe Simulator?**
-Accelix and SCON, per the official Steam appdetails for app 3232690.
-
-**When did it release?**
-7 October 2026, according to the same official listing.
-
-**Is there a published recipe list?**
-No. The store page does not include one. Any recipe values you see in a guide are that guide's observations.
-
-**Are there cheat codes?**
-None are documented in the official material. If a code system exists, it is not advertised, and claims otherwise should be treated as unverified.
-
-**How do I verify a claim I read elsewhere?**
-Open the [official Steam page](https://store.steampowered.com/app/3232690/) and compare. If a feature is not mentioned there and not visible in your own game, it is a third-party claim, not a fact.
-
-**Does following standard management advice guarantee three Maidchelin stars?**
-No. The scoring is not documented, and no guide can promise an outcome the developers have not published.
-
-## The Honest Bottom Line
-
-Maid Cafe Simulator advertises a hands-on first-person loop — inherit, hire, mix, serve, scan, count, order, and aim for three stars while uncovering five secrets. That is a specific and appealing combination. What it does not advertise is a spreadsheet of recipes, stats, and codes, because none of that is published. The most reliable way to play well is to treat the official page as your baseline, treat guides as hypotheses, and verify everything at the counter.
+- [Official Steam store listing](https://store.steampowered.com/app/3232690/?l=english)
+- [v1.21 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [v1.20 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)
+- [Demo v1.16.22 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498233736)

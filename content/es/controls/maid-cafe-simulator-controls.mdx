@@ -1,87 +1,25 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: qué confirma la página de Steam y qué no",
-  description: "Maid Cafe Simulator te permite dirigir una cafetería, contratar a cinco maid y perseguir tres estrellas Maidchelin. Esto es lo que está documentado, lo que no, y cómo verificarlo.",
+  title: "Controles de Maid Cafe Simulator: teclas y acciones confirmadas",
+  description: "Las entradas de control que confirman las notas oficiales del parche, incluidos el reporte de errores, la cancelación de muebles y mantener Q para lanzar.",
   category: "controls",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator apareció en Steam el 7 de octubre de 2026, desarrollado por Accelix y SCON. Es un juego de gestión de cafetería en primera persona: heredas una cafetería en mal estado, la dotas de personal con maid, mezclas bebidas, atiendes a los clientes, gestionas la caja registradora y trabajas para conseguir tres estrellas Maidchelin. Cada una de las cinco maid guarda un secreto, y en algún punto de la mezcla una chica kemonomimi lo cambia todo.
+Las notas oficiales consultadas aquí confirman solo un puñado de entradas; no incluyen una tabla completa de teclado y ratón. Esto es lo documentado:
 
-Eso es mucha premisa en una breve descripción de tienda. También es casi toda la información oficial que existe. Si eres el tipo de jugador al que le gusta leer una hoja de cálculo de recetas antes de comprar un juego de cocina, este artículo trata sobre lo que puedes y no puedes saber de antemano — y cómo comprobar el resto tú mismo dentro del juego.
+- F8: reportar un error desde dentro del juego (varias notas de parche).
+- ESC: abrir el menú; el menú ESC también contiene una opción Report Bug.
+- ESC mientras colocas muebles: funciona como R, devolviendo el mueble a su caja y cancelando la colocación (v1.20).
+- R: la tecla que reproduce ESC para cancelar la colocación de muebles (v1.20).
+- Mantener Q: lanzar cajas, como se enseña cuando recibes el deseo de lanzar cajas de Mina (v1.21).
 
-## El bucle anunciado, en orden
+Las notas también mencionan las teclas numéricas para las cámaras durante las actuaciones de la noche de filmación (el número de la cámara actual aparece resaltado, v1.21), pero eso es específico de ese modo, no un control general.
 
-Según la ficha oficial de Steam de [Maid Cafe Simulator](https://store.steampowered.com/app/3232690/), el juego anuncia las siguientes actividades:
+No documentado en estas fuentes: teclas de movimiento, tecla de interacción, atajos de menú y asignaciones de ratón. Para esos, consulta la ayuda de teclas dentro del juego o el menú de ajustes.
 
-- **Heredar una cafetería en mal estado.** Empiezas con un negocio que necesita trabajo, no con un local terminado.
-- **Contratar maid.** La dotación de personal forma parte de la capa de gestión, no es un reparto fijo.
-- **Mezclar bebidas.** La preparación de bebidas es una tarea manual en lugar de un clic en un menú.
-- **Atender a los clientes.** El servicio en primera persona es la interacción central.
-- **Escanear recibos y contar el cambio.** La caja registradora está modelada a nivel de transacción, lo que significa que el manejo del dinero forma parte del bucle de habilidad en lugar de ser automático.
-- **Pedir ingredientes por teléfono, entregados por un mensajero Maidroid.** El reabastecimiento es un paso distinto con su propia interfaz y personaje.
-- **Aim for tres estrellas Maidchelin.** Este es el objetivo de progresión declarado, planteado como un logro hacia el que construir en lugar de una condición inicial.
-- **Cinco maid, cada una con un secreto.** El gancho narrativo está basado en personajes y distribuido entre todo el plantel en lugar de concentrarse en una única historia.
+Fuentes
 
-Fíjate en lo que está ausente: no hay lista de recetas, ni precios, ni tablas de estadísticas de las maid, ni finales, ni sistema de códigos. La página de la tienda simplemente no los publica. Cualquier guía que presente esos elementos como hechos establecidos o bien se basa en la observación del tiempo de juego o bien está adivinando.
-
-## Lo que está documentado frente a lo que no
-
-Esta distinción importa más de lo habitual en Maid Cafe Simulator, porque el juego invita a la optimización y la página oficial retiene deliberadamente los números. Aquí tienes una separación clara.
-
-| Categoría | Estado |
-|---|---|
-| Desarrolladores, fecha de lanzamiento | Documentado en la página oficial de Steam |
-| Actividades principales (mezclar, servir, caja, pedidos) | Documentado en la descripción de la tienda |
-| Cinco maid con secretos | Documentado como un recuento y una premisa |
-| Tres estrellas Maidchelin como objetivo | Documentado |
-| Lista completa de recetas y valores exactos | No documentado |
-| Precios de objetos o ingredientes | No documentado |
-| Estadísticas, horarios o tablas de habilidades de las maid | No documentado |
-| Finales, rutas románticas o ramificaciones argumentales | No documentado |
-| Códigos de trucos, listas de atajos o notas del parche | No documentado |
-
-Si ves una página que afirma conocer el cambio exacto que se debe devolver en un pedido concreto o el crecimiento preciso de las estadísticas de una maid específica, trátala como una guía de terceros elaborada a partir de la partida de alguien, no como documentación del desarrollador. Las guías de terceros pueden ser genuinamente útiles para orientarse, pero son observaciones, y las observaciones quedan obsoletas con los parches.
-
-## Cómo verificar cualquier cosa tú mismo
-
-El método de verificación más rápido es el propio juego, y no cuesta nada extra más allá de la compra. Carga una partida guardada, falla un pedido a propósito y observa qué informa la interfaz. El paso de la caja registradora es un buen punto de partida porque escanear recibos y contar el cambio se anuncian explícitamente — lo que significa que el propio juego es la referencia autorizada sobre cómo se comportan esos pasos.
-
-Para cualquier cosa sobre la forma general del juego en lugar de la mecánica momento a momento, la [página oficial de la tienda de Steam](https://store.steampowered.com/app/3232690/) es la única fuente que habla en nombre de los desarrolladores. Consulta la descripción de la tienda, las capturas de pantalla y las discusiones del centro de la comunidad por separado; las publicaciones de los usuarios en el centro son contenido de la comunidad, no declaraciones oficiales, incluso cuando son precisas.
-
-## Razonamiento práctico de gestión
-
-Sin números documentados, el consejo útil es estructural en lugar de numérico.
-
-**Protege el paso de la caja registradora.** Contar el cambio se anuncia como una tarea manual. En la práctica, eso significa que los errores de caja son una fuente probable de pérdida de dinero o de clientes descontentos, y es la única parte del bucle en la que precipitarse tiene un coste evidente. Ve más despacio ahí antes de ir más despacio en cualquier otro sitio.
-
-**Trata los pedidos como una decisión de ritmo.** El pedido de ingredientes se hace por teléfono con un mensajero Maidroid. Siempre que un juego separa el reabastecimiento del servicio, la pregunta interesante es el momento: pide antes de quedarte sin existencias, no después. Solo puedes aprender tu propio ritmo de consumo jugando unos cuantos turnos y observando qué se vende.
-
-**Deja que los secretos de las maid marquen tus prioridades.** La premisa promete cinco personajes con historias ocultas. Si la narrativa es lo que te trajo, repartir la atención entre todo el plantel es la suposición segura; si no lo es, probablemente puedas optimizar únicamente para la calificación de estrellas. El juego no anuncia ninguna penalización por ninguno de los dos enfoques, y ninguna fuente confirma que exista.
-
-**Usa el objetivo de estrellas como una dirección, no como una lista de comprobación.** "Tres estrellas Maidchelin" te dice que hay un techo que alcanzar. No te dice los criterios, y ninguna fuente oficial los publica. Espera inferir los requisitos a partir de la retroalimentación del juego.
-
-## Una nota sobre las expectativas
-
-Maid Cafe Simulator es un simulador en primera persona con una capa de gestión y una capa de personajes. Esa combinación suele significar que la caja registradora, la mezcla de bebidas y las idas a por ingredientes son donde reside el desafío, mientras que las historias de las maid son donde reside la recompensa. Nada en el material oficial contradice esa lectura, pero nada confirma tampoco el equilibrio específico.
-
-Lo que el material oficial sí confirma es limitado y fiable: dos desarrolladores, un lanzamiento el 7 de octubre de 2026, una cafetería en mal estado, cinco maid con secretos, mezcla de bebidas, servicio, escaneo de recibos, conteo de cambio, pedido de ingredientes por teléfono mediante un mensajero Maidroid, y tres estrellas Maidchelin que perseguir. Todo lo que vaya más allá de ese nivel de detalle es algo que verificas en el juego o en la página de la tienda.
-
-## Preguntas frecuentes
-
-**¿Cuándo se lanzó Maid Cafe Simulator?**
-El 7 de octubre de 2026, según la página oficial de Steam.
-
-**¿Quién lo desarrolló?**
-Accelix y SCON, listados como los desarrolladores.
-
-**¿Cuántas maid hay?**
-La descripción de la tienda indica cinco, y dice que cada una guarda un secreto.
-
-**¿Hay una lista de recetas o una lista de precios disponible?**
-No oficialmente. La descripción de Steam no publica recetas, precios, estadísticas de las maid ni un sistema de códigos. Cualquier lista de ese tipo que encuentres es una guía de terceros basada en la observación de partidas.
-
-**¿Qué son las estrellas Maidchelin?**
-Un objetivo de calificación de tres estrellas descrito en la página de la tienda como la meta de dirigir la cafetería. Los criterios exactos no están documentados.
-
-**¿Cómo compruebo una mecánica sin spoilers?**
-Abre una partida guardada, prueba la mecánica de forma aislada — por ejemplo, gestiona deliberadamente mal una transacción de caja — y lee la respuesta del juego. Para cualquier cosa más amplia, consulta la página oficial de Steam en lugar de una guía.
+- [v1.21 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [v1.20 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)
+- [v1.21.12 hotfix](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114047748)

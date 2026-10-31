@@ -1,88 +1,24 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: Was die Steam-Seite tatsächlich bestätigt",
-  description: "Ein fundierter Blick auf Maid Cafe Simulator auf Steam: beworbene Features, was Drittanbieter-Guides hinzufügen und was schlicht undokumentiert ist.",
+  title: "Maid Cafe Simulator Einstellungen: Modusauswahl und Audio",
+  description: "Was die offiziellen Notes über den Schwierigkeitsmodus pro Spielstand, Sound-Lautstärkekategorien und das Melden von Bugs sagen, ohne erfundene Regler.",
   category: "controls",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator erschien am 7. Oktober 2026 auf Steam von den Entwicklern Accelix und SCON, und es ist leicht, selbstsicher klingende Artikel darüber zu finden, die nie sagen, woher ihre Zahlen stammen. Dieser Artikel macht das Gegenteil. Alles unten ist in drei Kategorien sortiert: was der offizielle Steam-Eintrag bewirbt, was Drittanbieter-Guides als Beobachtung behaupten und was niemand auf überprüfbare Weise dokumentiert hat. Wenn Sie entscheiden, ob Sie kaufen sollen, oder das Spiel bereits besitzen und wissen möchten, welchen „Tipps" Sie vertrauen können, ist genau diese Sortierung der nützliche Teil.
+Die hier geprüften offiziellen Notes erwähnen einige Einstellungen und einen Sound-Fix, aber sie veröffentlichen keinen vollständigen Durchgang durch das Einstellungsmenü oder eine Liste von Reglern.
 
-## Das offizielle Pitch, direkt von der Store-Seite
+Bestätigte einstellungsbezogene Punkte
 
-Der [Steam-Eintrag](https://store.steampowered.com/app/3232690/) beschreibt einen First-Person-Café-Management-Simulator mit einer klaren Spielschleife. Sie erben ein heruntergekommenes Café. Ein Kemonomimi-Mädchen taucht auf und verändert alles. Sie bauen den Ort zu einem Maid-Café aus, das mit fünf Maids besetzt ist, von denen jede ein Geheimnis hat. Das erklärte Ziel sind drei Maidchelin-Sterne.
+- Modusauswahl: Beim Start eines neuen Spiels wählst du Normal Mode oder Story Mode. Im Story Mode sind Cafe-XP, Bond und Einkommen verdoppelt und der größte Teil der Herausforderung beim Betreiben des Cafes entfällt. Die Einstellung wird pro Spielstand gespeichert und erscheint auf dem Ladebildschirm und im Pausenmenü und kann nach der Wahl nicht geändert werden (v1.21).
+- Sound: Der Store listet "Custom Volume Controls" als Feature. v1.20 behob, dass die Wunsch-Sprachzeilen des Welpen und des Richters die Lautstärkeeinstellungen ignorierten; sie folgen jetzt der Sound-Effects-Lautstärke. Das bestätigt mindestens eine Sound-Effects-Kategorie getrennt von anderem Audio. Ein früheres Demo-Update (v1.16.22) fügte außerdem Grafikqualitäts-Presets und eine Option zum Ausschalten von Screen Shake hinzu, wobei die offiziellen Notes diese aktuellen Menüs nicht beschreiben.
+- Bug-Meldung: F8 oder die Option "Report Bug" im ESC-Menü.
 
-Die beworbene Moment-zu-Moment-Arbeit ist konkret und handfest:
+Nicht in diesen Quellen dokumentiert: die vollständige Liste der Regler, Neubelegung von Tasten, aktuelle Grafik-Presets oder ein Sprach-Untermenü. Der Store listet acht unterstützte Sprachen, mit vollständigem Audio für Koreanisch markiert, beschreibt aber kein Einstellungs-Untermenü. Für die genauen Optionen sieh dir das Einstellungsmenü im Spiel an.
 
-- Drinks mixen
-- Kunden bedienen
-- Kassenzettel scannen
-- Wechselgeld zählen
-- Zutaten per Telefon bestellen, wobei ein Maidroid-Kurier die Lieferung übernimmt
+Quellen
 
-Diese Liste ist wichtig, weil sie Ihnen sagt, was für ein Spiel das ist. Kassenzettel scannen und Wechselgeld zählen sind keine Menü-Abstraktionen; sie legen nahe, dass das Spiel von Ihnen verlangt, Transaktionen am Tresen physisch abzuwickeln. Die Telefonbestellung plus Kurier deutet auf einen Versorgungsschritt zwischen den Bedienungsschichten hin. Die fünf Maids mit Geheimnissen deuten auf eine narrative Ebene hin, die parallel zur Management-Ebene läuft.
-
-Was die Store-Seite **nicht** veröffentlicht, ist genauso wichtig. Es gibt keine vollständige Rezeptliste, keine Artiklepreistabelle, keine Maid-Statistik-Aufschlüsselung und kein Codesystem. Wer diese Dinge als dokumentierte Fakten darstellt, geht über das offizielle Material hinaus.
-
-## Beworben vs. beobachtet vs. unbekannt
-
-| Kategorie | Status | Beispiele |
-|---|---|---|
-| Auf Steam beworben | Offiziell | Erbschaft eines heruntergekommenen Cafés, fünf Maids mit Geheimnissen, drei Maidchelin-Sterne, Drink-Mixen, Bedienen, Kassenzettel-Scannen, Wechselgeld-Zählen, Telefonbestellung über Maidroid-Kurier |
-| Von Drittanbieter-Guides behauptet | Sekundär, unüberprüft | Spezifische Rezeptverhältnisse, optimierte Schichtroutinen, Maid-Präferenz-Rankings |
-| Nirgends zuverlässig dokumentiert | Unbekannt | Vollständige Rezeptliste, Artikelpreise, Maid-Statistik-Tabellen, Enden, Cheat-Codes, Hotkeys, Patch-Historie |
-
-Die mittlere Zeile verdient Vorsicht. Drittanbieter-Guides können wirklich hilfreich sein, aber sie sind Beobachtungen aus dem Durchspielen einer Person, keine Entwicklerdokumentation. Die „beste" Maid oder „richtige" Rezeptreihenfolge eines Guide-Autors spiegelt möglicherweise dessen Spielstand, dessen Schwierigkeitsgrad oder einen Build wider, der sich inzwischen geändert hat. Behandeln Sie solche Behauptungen als Hypothesen zum Testen, nicht als Regeln.
-
-## Was „Kassenzettel scannen und Wechselgeld zählen" wirklich impliziert
-
-Dies ist das markanteste beworbene Feature, und es lohnt sich, darüber nachzudenken, statt darüber hinwegzulesen.
-
-Wenn das Spiel Sie einen Kassenzettel scannen und dann Wechselgeld herausgeben lässt, sind die Fehlerzustände wahrscheinlich operativer Natur: eine langsame Transaktion, eine falsche Summe, eine sich bildende Schlange. Das ist eine andere Fähigkeit als das Optimieren eines Menüs. Es belohnt Genauigkeit und Schnelligkeit am Tresen, nicht nur das Wissen, welches Getränk sich am besten verkauft.
-
-Daraus folgt praktisches Denken. Wenn sich Ihre Schichten chaotisch anfühlen, liegt der Engpass vielleicht gar nicht bei Ihren Rezepten — sondern bei Ihrer Transaktionsabwicklung. Die Möglichkeit, das zu prüfen, besteht darin, zu beobachten, wohin Ihre Zeit während einer Schicht tatsächlich fließt: an der Mixstation, an der Kasse oder beim Laufen dazwischen. Das Spiel veröffentlicht keinen Statistikbildschirm, der Ihnen das sagt, also ist Beobachtung während des Spielens die einzige ehrliche Methode.
-
-## Auf dem Weg zu drei Maidchelin-Sternen
-
-Die Store-Seite nennt drei Maidchelin-Sterne als Ziel, ohne die Bewertung zu erklären. Das ist eine bewusste Auslassung, und sie bedeutet, dass jeder Artikel, der behauptet, die genauen Sternschwellen zu kennen, rät.
-
-Was Sie sicher ableiten können:
-
-**Qualität und Konsistenz sind wahrscheinlich beide wichtig.** Ein Sternesystem, das nach einem realen Restaurantführer benannt ist, impliziert eine Bewertung dessen, was Sie servieren, nicht nur, wie viel Sie verkaufen. Allgemeine Managementpraxis — servieren Sie, was Sie geübt haben, halten Sie das Menü im Rahmen dessen, was Sie sauber ausführen können — gilt.
-
-**Personal ist wahrscheinlich ein Teil davon.** Fünf Maids mit individuellen Geheimnissen impliziert, dass Sie im Laufe der Zeit ihre Wesenszüge kennenlernen. Allgemeine Praxis: Rotieren Sie, wer welche Rolle übernimmt, und achten Sie darauf, ob sich die Servicequalität ändert, statt eine feste optimale Zuweisung anzunehmen.
-
-**Vorräte begrenzen alles.** Telefonbestellung über einen Maidroid-Kurier bedeutet, dass eine ausgehende Zutat eine Schicht stoppen kann. Vor einer Schicht den Bestand zu prüfen, ist gewöhnliche gute Praxis, keine geheime Technik.
-
-Nichts davon garantiert Sterne. Es ist eine Schlussfolgerung aus dem beworbenen Design, und die tatsächliche Bewertung des Spiels ist etwas, das Sie durch Spielen und Beobachten überprüfen, was sich nach jeder Schicht ändert.
-
-## Die fünf Maids und ihre Geheimnisse
-
-Dies ist der narrative Haken, und die Store-Seite ist explizit, dass jede der fünf Maids ein Geheimnis hat. Sie sagt nichts darüber, was diese Geheimnisse sind, wie sie freigeschaltet werden oder ob sie die Management-Ebene mechanisch beeinflussen.
-
-Wenn Sie primär wegen der Geschichte spielen, ist der vernünftige Ansatz, Zeit mit jeder Maid zu verbringen, statt sie in eine Rolle zu optimieren und zu vergessen. Das Spiel wird so beschrieben, dass es Ihnen ermöglicht, sie kennenzulernen, was nahelegt, dass Interaktion außerhalb reiner Aufgabenzuweisung verfügbar ist. Wie diese Interaktion ausgelöst wird, ist nicht dokumentiert, also ist die Art, es herauszufinden, zu versuchen, mit jeder Maid über mehrere Spieltage hinweg zu sprechen und zu sehen, was sich ändert.
-
-Seien Sie skeptisch gegenüber jeder Liste, die behauptet, die Geheimnisse der Reihe nach zu enthüllen. Wenn eine solche Liste als offizielles Material existieren würde, stünde sie auf der Store-Seite oder in Entwicklerbeiträgen, und das ist nicht der Fall.
-
-## FAQ
-
-**Wer hat Maid Cafe Simulator entwickelt?**
-Accelix und SCON, laut den offiziellen Steam-Appdetails für App 3232690.
-
-**Wann wurde es veröffentlicht?**
-7. Oktober 2026, laut demselben offiziellen Eintrag.
-
-**Gibt es eine veröffentlichte Rezeptliste?**
-Nein. Die Store-Seite enthält keine. Alle Rezeptwerte, die Sie in einem Guide sehen, sind die Beobachtungen dieses Guides.
-
-**Gibt es Cheat-Codes?**
-Keine sind im offiziellen Material dokumentiert. Wenn ein Codesystem existiert, wird es nicht beworben, und gegenteilige Behauptungen sollten als unüberprüft behandelt werden.
-
-**Wie überprüfe ich eine Behauptung, die ich anderswo gelesen habe?**
-Öffnen Sie die [offizielle Steam-Seite](https://store.steampowered.com/app/3232690/) und vergleichen Sie. Wenn ein Feature dort nicht erwähnt wird und in Ihrem eigenen Spiel nicht sichtbar ist, ist es eine Drittanbieter-Behauptung, keine Tatsache.
-
-**Garantiert das Befolgen allgemeiner Managementratschläge drei Maidchelin-Sterne?**
-Nein. Die Bewertung ist nicht dokumentiert, und kein Guide kann ein Ergebnis versprechen, das die Entwickler nicht veröffentlicht haben.
-
-## Das ehrliche Fazit
-
-Maid Cafe Simulator bewirbt eine handfeste First-Person-Spielschleife — erben, einstellen, mixen, bedienen, scannen, zählen, bestellen und drei Sterne anstreben, während Sie fünf Geheimnisse aufdecken. Das ist eine spezifische und reizvolle Kombination. Was es nicht bewirbt, ist eine Tabellenkalkulation mit Rezepten, Statistiken und Codes, weil nichts davon veröffentlicht ist. Der zuverlässigste Weg, gut zu spielen, besteht darin, die offizielle Seite als Ihre Grundlage zu behandeln, Guides als Hypothesen zu betrachten und alles am Tresen zu überprüfen.
+- [Offizieller Steam-Store-Eintrag](https://store.steampowered.com/app/3232690/?l=english)
+- [v1.21-Update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [v1.20-Update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)
+- [Demo v1.16.22-Update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498233736)

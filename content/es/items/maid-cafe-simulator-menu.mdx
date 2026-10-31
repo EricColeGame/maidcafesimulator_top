@@ -1,78 +1,25 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: lo que el juego de Steam realmente te exige",
-  description: "Una mirada práctica a Maid Cafe Simulator en Steam: funciones anunciadas, cómo funciona el bucle de la cafetería y qué no documenta la página de la tienda.",
+  title: "Menú de Maid Cafe Simulator: bebidas, estaciones y precios de festival",
+  description: "Qué cubre el menú de Maid Cafe Simulator: las 49 recetas oficiales de bebidas, tres tipos de estación, estaciones pro y cómo se muestran los precios de venta del festival.",
   category: "items",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator es un juego de gestión de cafetería en primera persona de los desarrolladores Accelix y SCON, lanzado en Steam el 7 de octubre de 2026 como la app 3232690. Heredas una cafetería en ruinas y, según la descripción oficial de la tienda, llega una chica kemonomimi y lo cambia todo. A partir de ahí construyes una cafetería de maid con cinco maids, cada una con un secreto, y trabajas para conseguir tres estrellas Maidchelin.
+El menú de Maid Cafe Simulator es un menú de bebidas: la ficha de la tienda de Steam anuncia 49 recetas de bebidas en tres tipos de estación de preparación de bebidas. En el menú no se describe ninguna línea de platos principales de comida, por lo que no se confirma un menú de hamburguesas, curry u omurice. Una publicación de Cooking Fest del lanzamiento decía "48 menu items" (13 de octubre de 2026); la ficha actual de la tienda indica 49 recetas de bebidas, así que trata 49 como la cifra actual.
 
-Esa es la premisa anunciada. Este artículo se ciñe a lo que confirma la página de la tienda, señala lo que afirman guías de terceros y es explícito sobre lo que nadie ha documentado.
+**Datos confirmados**
+- En la página oficial de la tienda se listan 49 recetas de bebidas y tres tipos de estación (licuadora, cafetera, coctelera).
+- Las licuadoras pro y las cafeteras pro preparan dos bebidas iguales con una ración de ingredientes, según las notas de la v1.20 (16 de octubre de 2026).
+- Las recetas de nivel superior necesitan dos estaciones, según el consejo en el juego añadido en la v1.21 (23 de octubre de 2026).
+- La pantalla de selección de recetas de la estación muestra los precios de venta, y los artículos del menú del festival muestran sus precios elevados (v1.21).
+- Desbloqueos y precios de recetas documentados: Espresso se puede comprar desde Cafe Lv6 por $6 (v1.21); Triple Fruit desde Lv10 por $105 (v1.20); Latte desde Lv7 (v1.21).
 
-## Qué anuncia realmente la página de Steam
+**Incógnitas**
+Los nombres completos de las recetas, las cantidades de ingredientes y los precios completos de la tienda no están en las fuentes oficiales consultadas aquí. Consulta el recetario del juego o una nota de parche posterior para los valores exactos.
 
-La entrada oficial de appdetails de Maid Cafe Simulator lista a Accelix y SCON como los desarrolladores, con fecha de lanzamiento del 7 de octubre de 2026. La descripción de la tienda es inusualmente específica sobre los verbos, lo cual importa cuando decides si el juego es para ti:
-
-- Heredas una cafetería en ruinas y la vuelves a levantar.
-- Aparece una chica kemonomimi y cambia la situación.
-- Cinco maids trabajan para ti, y cada una tiene un secreto.
-- El objetivo a largo plazo son tres estrellas Maidchelin.
-- Las tareas del día a día incluyen mezclar bebidas, atender a los clientes, escanear recibos y contar el cambio.
-- Pides ingredientes por teléfono y un mensajero Maidroid se encarga de la entrega.
-
-Fíjate en lo que esa lista contiene y en lo que no. Confirma la existencia de mezclar bebidas y manejar efectivo como actividades del jugador. No publica una lista de recetas, precios de ingredientes, tablas de estadísticas de las maids, un umbral de estrellas, una lista de finales ni ningún sistema de códigos. Si ves esas cosas afirmadas con números exactos en otro sitio, trátalas como no verificadas.
-
-Puedes leer la fuente tú mismo en la [página oficial de Maid Cafe Simulator en Steam](https://store.steampowered.com/app/3232690/). Cuando una guía y la página de la tienda entren en conflicto, gana la página de la tienda.
-
-## Por qué el bucle es más contabilidad que anime
-
-La frase "escanear recibos y contar el cambio" es la advertencia más útil de toda la descripción. Muchos simuladores de cafetería te dejan servir una bebida y pasar al siguiente. Maid Cafe Simulator anuncia un paso de cobro y un paso de manejo de dinero, lo que significa que tu turno tiene una cola transaccional después de cada pedido.
-
-De ahí se deduce un razonamiento práctico. En un simulador de gestión en primera persona, cada paso extra cuesta tiempo real por cliente, así que el rendimiento depende menos de lo rápido que mezcles y más de lo limpiamente que manejen las partes aburridas. Si el juego registra el cambio entregado incorrectamente, un error es una fuga silenciosa en lugar de un fallo dramático — el tipo de cosa que solo notas cuando tu presupuesto de ingredientes no alcanza.
-
-Dicho esto, la página de la tienda no indica si contar mal el cambio conlleva una penalización, una pérdida de reputación o absolutamente nada. Verifícalo en el juego dándole a propósito menos cambio a un cliente al principio, en un pedido de bajo valor, y observando tu dinero y cualquier indicador de retroalimentación.
-
-## Dirigir la cafetería: práctica general, no datos documentados
-
-Nada de lo que sigue proviene de una tabla de recetas o lista de precios oficial, porque no se ha publicado ninguna. Estos son hábitos que se mantienen en la mayoría de los simuladores de servicio en primera persona y que vale la pena probar contra tus propios resultados.
-
-| Área | Hábito predeterminado razonable | Qué no está documentado |
-|---|---|---|
-| Mezcla de bebidas | Aprende primero un pequeño menú básico, añade variedad cuando ya sea automático | Lista completa de recetas, proporciones de ingredientes |
-| Cobro | Haz el escaneo del recibo y el conteo del cambio en el mismo orden fijo cada vez | Si los errores se penalizan |
-| Ingredientes | Controla el gasto frente a los ingresos de un turno antes de ampliar el menú | Precios de los artículos, momento de reabastecimiento |
-| Personal | Añade una maid cuando tú, no la cola, te conviertas en el cuello de botella | Tablas de estadísticas de las maids, costes de contratación |
-| Secretos | Deja que las conversaciones ocurran durante los periodos tranquilos | Cuáles son los secretos, o cómo se resuelven |
-
-Dos de esas filas merecen ampliarse.
-
-Sobre los ingredientes: pedir por teléfono con un mensajero Maidroid implica un tiempo de espera y un coste. La descripción de la tienda confirma el método de pedido, no el retraso en la entrega ni el precio. Antes de comprometerte con un menú más grande, haz unos cuantos turnos y anota lo que realmente vendiste frente a lo que compraste. El desperdicio es el asesino silencioso en cualquier simulador con stock perecedero.
-
-Sobre las maids: cinco personajes con secretos es una promesa narrativa, y la página de la tienda no dice nada sobre cómo afloran esos secretos. No asumas que existe un medidor de relación, un sistema de regalos o un árbol de diálogo — no se anuncia ninguno. Habla con el personal entre aglomeraciones y mira qué te da el juego.
-
-## Tres estrellas Maidchelin: lo que el objetivo no te dice
-
-Las estrellas Maidchelin son el objetivo final declarado, y la descripción se detiene en "tres". No hay una rúbrica publicada: ni puntuación de limpieza, ni objetivo de tiempo de servicio, ni umbral de ingresos, ni evento de inspección. Las guías de terceros pueden especular sobre los criterios, pero sin documentación del desarrollador esas son observaciones en el mejor de los casos y conjeturas en el peor.
-
-El enfoque honesto es tratar la calificación por estrellas como un espejo. Si el juego muestra algún desglose de la calificación, léelo y arregla la categoría más débil en lugar de optimizar lo que ya es fuerte. Si no muestra ninguno, te queda inferir a partir de las partes visibles del bucle — velocidad de servicio, precisión de los pedidos, calidad de las bebidas y el aspecto de la cafetería. Eso es una inferencia razonable, no una mecánica confirmada.
-
-A continuación, una breve sección de preguntas frecuentes, porque la mayoría de las búsquedas sobre este juego en realidad preguntan si existe un dato específico.
-
-## Preguntas frecuentes
-
-**¿Hay una lista de recetas o una tabla de precios?**
-No en la página oficial de Steam. La descripción de la tienda confirma que mezclas bebidas y pides ingredientes, pero no publica valores de recetas ni precios. Cualquier lista exacta que encuentres es de terceros y debería comprobarse con el propio juego.
-
-**¿Hay códigos o atajos de teclado para Maid Cafe Simulator?**
-No se documenta ningún sistema de códigos en la entrada oficial de appdetails. Si un sitio lista códigos, trátalo como no verificado hasta que puedas confirmarlo en tu propia copia.
-
-**¿Quién lo hizo y cuándo salió?**
-Accelix y SCON, lanzado el 7 de octubre de 2026, según la [página oficial de la tienda de Steam](https://store.steampowered.com/app/3232690/).
-
-**¿Cómo funcionan los secretos de las maids?**
-Sin documentar. La descripción oficial dice que cinco maids tienen cada una un secreto y no explica cómo se activan esas historias.
-
-**¿Puedo garantizar tres estrellas Maidchelin siguiendo una guía?**
-No. Los criterios no están publicados, así que cualquier guía razona a partir de las partes visibles del bucle. Juega, observa qué recompensa el juego y ajústate.
-
-El recurso más fiable sigue siendo el [listado oficial de Maid Cafe Simulator en Steam](https://store.steampowered.com/app/3232690/), además de tus propias notas de unos cuantos turnos. Cuando un número importe y no puedas encontrarlo en el juego ni en esa página, asume que nadie lo ha verificado todavía.
+Fuentes
+- [Ficha oficial de la tienda de Steam](https://store.steampowered.com/app/3232690/?l=english)
+- [Our 17th Update - v1.20](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680712)
+- [Our 19th Update - v1.21](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035125)
+- [Publicación de Steam Cooking Fest](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942664)

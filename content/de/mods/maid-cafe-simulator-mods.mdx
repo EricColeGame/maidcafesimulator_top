@@ -1,82 +1,32 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: Was die Steam-Seite tatsächlich bestätigt",
-  description: "Ein bodenständiger Blick auf Maid Cafe Simulator auf Steam: beworbene Features, wie die Café-Schleife funktioniert und was die Store-Seite nicht dokumentiert.",
+  title: "Maid Cafe Simulator Mods: SortIT, thailändische Lokalisierung und Installationsquellen",
+  description: "Finde Community-Mods für Maid Cafe Simulator, SortIT zur Regal-Sortierung, thailändische Lokalisierung, Installationsanweisungen der Autoren und aktuelle Kompatibilitätsgrenzen.",
   category: "mods",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator ist ein First-Person-Café-Management-Spiel der Entwickler Accelix und SCON, das am 7. Oktober 2026 als App 3232690 auf Steam erschienen ist. Wer die Store-Seite gesehen hat, kennt den Pitch bereits: Du erbst ein heruntergekommenes Café, ein Kemonomimi-Mädchen taucht auf und verändert alles, und du verbringst deine Schichten damit, Drinks zu mixen, Kunden zu bedienen, Kassenbons zu scannen und Wechselgeld herauszugeben – auf dem Weg zu drei Maidchelin-Sternen. Dieser Artikel hält sich an das, was das [offizielle Steam-Listing](https://store.steampowered.com/app/3232690/) tatsächlich aussagt, und trennt das von dem, was Drittanbieter-Guides behaupten und was schlicht nirgends dokumentiert ist.
+Ja, von der Community erstellte Maid Cafe Simulator Mods haben Autorenseiten auf Nexus. Dies sind inoffizielle Projekte; der geprüfte Steam-Eintrag bewirbt weder Steam Workshop noch ein offizielles Modding-Tool.
 
-## Was die Steam-Seite bewirbt
+## Beispiele mit Autorenquellen
 
-Die Store-Beschreibung ist kurz und konkret, was hilfreich ist. Das bestätigt sie:
+- [SortIT von Remikje](https://www.nexusmods.com/maidcafesimulator/mods/2) organisiert die Lagerung nach Regalreihe, merkt sich zugewiesene Gegenstandstypen und lässt den Spieler die Zuweisung einer leeren Reihe ersetzen. Der Autor beschreibt außerdem die Sortierung des Getränkeregalss.
+- [Thailändische Lokalisierung von Arai / MisakiArai](https://www.nexusmods.com/maidcafesimulator/mods/1?tab=description) übersetzt das Spiel ins Thailändische. Es ist eine Fan-Übersetzung, kein Sprachpaket des Entwicklers.
 
-| Beworbenes Feature | Was es in der Praxis bedeutet |
-| --- | --- |
-| Du erbst ein heruntergekommenes Café | Der Startraum ist ein Sanierungsobjekt, kein fertiges Lokal |
-| Ein Kemonomimi-Mädchen verändert alles | Eine Story-Figur, die den Zustand des Cafés verändert |
-| Fünf Maids, jede mit einem Geheimnis | Fünf namentliche Mitarbeiterinnen mit persönlichen Handlungssträngen |
-| Drei Maidchelin-Sterne | Das übergeordnete Progressionziel |
-| Drinks mixen und Kunden bedienen | Die zentrale aktive Spielschleife |
-| Kassenbons scannen und Wechselgeld zählen | Eine manuelle Kassenroutine |
-| Zutaten per Telefon bei einem Maidroid-Kurier bestellen | Nachbestellung über einen Anruf im Spiel |
+## SortIT-Installation laut ihrem Autor
 
-Diese Liste ist der gesamte beworbene Umfang. Es lohnt sich, sie zweimal zu lesen, denn vieles, wonach Leute rund um dieses Spiel suchen – vollständige Rezeptlisten, exakte Preise, Maid-Statistiken, Endbedingungen, Codes –, steht überhaupt nicht auf der Store-Seite. Die Beschreibung nennt dir die Verben, nicht die Zahlen.
+1. Installiere MelonLoader mit IL2CPP-Unterstützung und wähle MaidCafeSimulator.exe aus. Der Autor gibt v0.6.x oder neuer an.
+2. Starte das Spiel einmal, um die Loader-Ordner zu erstellen, und schließe es dann.
+3. Lege SortIT.dll in den Mods-Ordner des Spiels und starte es neu. Laut dem Autor bestätigt die MelonLoader-Konsole das Laden.
 
-## Die Kernschleife, wie beschrieben
+Dies sind die Windows-Anweisungen des Autors, kein von diesem Wiki getestetes Verfahren. Der thailändische Mod hat eigene Abhängigkeits- und Mods/Plugins-Ordner-Anweisungen; nutze seine Seite, statt anzunehmen, dass alle Mods identisch installiert werden.
 
-Das Spiel ist in First-Person-Perspektive und managementorientiert, was prägt, wie du spielen solltest. Du siehst nicht auf eine Tabellenkalkulation; du stehst im Raum und erledigst die Arbeit. Basierend auf den beworbenen Features gliedert sich eine Schicht in einige wiederkehrende Phasen:
+## Kompatibilität nach Patches prüfen
 
-Erstens, Vorbereitung. Du verschaffst dir einen Überblick über deinen Bestand und bestellst dann per Telefon Zutaten, die per Maidroid-Kurier eintreffen. Mitten in der Schicht leer dazustehen, ist der offensichtliche Fehlerzustand, daher ist es wichtiger, vor Servicestart zu bestellen, als schnell zu bestellen.
+Die Seite von SortIT zeigt ein Update vom 17. Oktober 2026, das vor den Updates v1.21 und v1.21.12 des Spiels liegt. Kompatibilität mit diesen neueren Builds wurde hier nicht festgestellt, ebenso wenig eine macOS-Installation. Prüfe die aktuellen Anforderungen und Beiträge des Autors für deine installierte Version.
 
-Zweitens, Service. Du mixst Drinks und bedienst Kunden. In First-Person-Management-Spielen ist der Engpass meist die eigene Bewegung und das Timing statt einer versteckten Schwierigkeitskurve, weshalb Vertrautheit mit dem Layout tendenziell mehr zählt als reine Geschwindigkeit.
+## Quellen
 
-Drittens, Kasse. Das Scannen von Bons und das Zählen von Wechselgeld wird getrennt vom Bedienen genannt, was nahelegt, dass es eine eigenständige Aufgabe ist und nicht etwas, das automatisch passiert. Behandle es als einen Schritt, den du aktiv abschließen musst, nicht als eine Animation, die sich von selbst auflöst.
-
-Viertens, Progression. Drei Maidchelin-Sterne sind das erklärte Ziel, und fünf Maids mit individuellen Geheimnissen implizieren, dass Mitarbeiterbeziehungen und Story-Momente parallel zu den Geschäftskennzahlen laufen.
-
-## Managementratschläge, die keine erfundenen Daten brauchen
-
-Da die Store-Seite weder eine Rezeptliste noch Artikelpreise, Maid-Statistiken oder ein Codesystem veröffentlicht, arbeitet jeder Guide, der dir exakte Zahlen liefert, entweder mit datamined Dateien oder denkt sich etwas aus. Beides gehört nicht in einen Planungsartikel. Was du stattdessen tun kannst, ist allgemeine Praxis anzuwenden und den Rest das Spiel erzählen zu lassen.
-
-Lerne einen Drink nach dem anderen. In jedem mischbasierten Simulator schlägt Muskelgedächtnis ein Nachschlageblatt, und ein kleines verlässliches Repertoire bedient mehr Kunden als ein breites wackeliges.
-
-Bestelle, bevor du es brauchst. Den Maidroid-Kurier gibt es, damit du nachbestellen kannst, ohne den Boden zu verlassen, aber Lieferungen sind in keinem Management-Spiel, das diesen Namen verdient, sofort da. Behalte deine Regale in ruhigen Momenten im Blick, nicht im Ansturm.
-
-Zähle Wechselgeld bewusst. Wenn das Zählen von Wechselgeld eine eigene beworbene Aufgabe ist, ist es wahrscheinlich auch ein Ort, an dem Fehler dich etwas kosten. Werde an der Kasse etwas langsamer, statt eine Uhr schlagen zu wollen, die du noch nicht gemessen hast.
-
-Beobachte die Maids als Menschen, nicht nur als Personal. Fünf Maids, fünf Geheimnisse ist ein Story-Versprechen. Wenn sich der Dialog einer Maid verändert, ist das wahrscheinlich ein Signal, dem es nachzugehen lohnt, und kein Hintergrund-Flavor.
-
-Nimm den Zustand des Cafés früh ernst. Einen heruntergekommenen Raum zu erben, bedeutet, dass die Umgebung selbst eine Variable ist. Den Raum zu verbessern, ist normalerweise eine Voraussetzung dafür, deine Bewertung zu erhöhen, kein kosmetisches Nebenprojekt.
-
-## Was Community-Guides behaupten und wie man sie behandeln sollte
-
-Drittanbieter-Guides und Wiki-Seiten haben begonnen, Details zu füllen, die der Entwickler nicht veröffentlicht hat: Drink-Kombinationen, Preisratschläge, Mitarbeiterpräferenzen und Sternanforderungen. Behandle all das als sekundäre Beobachtung. Einiges davon mag akkurat und getestet sein; einiges davon mag die Erfahrung eines einzelnen Spielers sein, verallgemeinert zu einer Regel. Wenn ein Guide dir eine konkrete Zahl nennt, prüfe, ob er das Spiel selbst oder die offizielle Seite zitiert. Wenn er keines von beiden zitiert, verifiziere es in deinem eigenen Spielstand, bevor du eine Strategie darauf aufbaust.
-
-Die zuverlässigste Verifikationsmethode ist einfach: Spiele den relevanten Abschnitt, beobachte, was das Spiel dir sagt, und vergleiche. Rezeptverhalten, Kassenabwicklung und Sternprogression sind alle im Spiel beobachtbar. Die [Steam-Store-Seite](https://store.steampowered.com/app/3232690/) bleibt die Autorität dafür, was das Spiel beworbenermaßen tun soll, und sie wurde nicht aktualisiert, um mechanische Tabellen aufzunehmen.
-
-## Was wirklich nicht dokumentiert ist
-
-Um es klar zu sagen: Es gibt keine veröffentlichte Rezeptliste, keine Artikelpreisliste, keine Maid-Statistik, keinen Endguide und kein Codesystem vom Entwickler. Es gibt keine offiziellen Hotkeys, die auf der Store-Seite dokumentiert sind, keine Drop-Raten und auch keine dort referenzierten Patch Notes. Die Store-Seite beschreibt auch nicht, wie lange ein vollständiger Durchlauf dauert oder wie viele Enden existieren.
-
-Wenn du eine Seite siehst, die eine vollständige Rezeptdatenbank oder eine funktionierende Code-Liste verspricht, frag, woher die Daten stammen. Ohne offizielle Quelle sind diese Informationen entweder aus Spieldateien extrahiert oder erfunden, und beides bringt dasselbe Problem für einen Spieler mit sich: Sie überstehen möglicherweise nicht das nächste Update.
-
-## FAQ
-
-**Wann ist Maid Cafe Simulator erschienen?**
-Am 7. Oktober 2026, laut dem offiziellen Steam-Listing für App 3232690.
-
-**Wer hat es entwickelt?**
-Accelix und SCON sind auf Steam als Entwickler gelistet.
-
-**Ist es in First-Person-Perspektive?**
-Ja. Die Store-Beschreibung rahmt es als First-Person-Café-Management, bei dem du Drinks mixst, Kunden bedienst und die Kasse selbst führst.
-
-**Wie viele Maids gibt es?**
-Fünf, und die Beschreibung sagt, dass jede ein Geheimnis hat.
-
-**Was ist das Hauptziel?**
-Drei Maidchelin-Sterne zu verdienen, während du das geerbte Café führst.
-
-**Gibt es Codes oder eine Rezeptliste online?**
-Auf der Store-Seite ist kein offizielles Codesystem und keine Rezeptliste veröffentlicht. Community-Guides existieren, aber es sind Beobachtungen von Drittanbietern, also verifiziere alles Konkrete in deinem eigenen Spiel, bevor du dich darauf verlässt.
+- [Autorenseite von SortIT](https://www.nexusmods.com/maidcafesimulator/mods/2)
+- [Autorenseite der thailändischen Lokalisierung](https://www.nexusmods.com/maidcafesimulator/mods/1?tab=description)
+- [Offizieller Steam-Eintrag](https://store.steampowered.com/app/3232690/?l=english)

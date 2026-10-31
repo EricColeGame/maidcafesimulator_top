@@ -1,82 +1,32 @@
 export const metadata = {
-  title: "Maid Cafe Simulator: What the Steam Page Actually Confirms",
-  description: "A grounded look at Maid Cafe Simulator on Steam: advertised features, how the cafe loop works, and what the store page does not document.",
+  title: "Maid Cafe Simulator Mods: SortIT, Thai Localization and Installation Sources",
+  description: "Find community Maid Cafe Simulator mods, SortIT shelf sorting, Thai localization, author installation instructions and current compatibility limits.",
   category: "mods",
   date: "2026-10-14",
+  lastModified: "2026-10-31",
 };
 
-Maid Cafe Simulator is a first-person cafe management game from developers Accelix and SCON, and it arrived on Steam on 7 October 2026 as app 3232690. If you have seen the store page, you already know the pitch: you inherit a rundown cafe, a kemonomimi girl shows up and changes everything, and you spend your shifts mixing drinks, serving customers, scanning receipts, and counting change on the way to three Maidchelin stars. This article sticks to what the [official Steam listing](https://store.steampowered.com/app/3232690/) actually says, then separates that from what third-party guides claim and what simply is not documented anywhere yet.
+Yes, community-made Maid Cafe Simulator mods have author pages on Nexus. These are unofficial projects; the checked Steam listing does not advertise Steam Workshop or an official modding tool.
 
-## What the Steam page advertises
+## Examples with author sources
 
-The store description is short and specific, which is useful. Here is what it confirms:
+- [SortIT by Remikje](https://www.nexusmods.com/maidcafesimulator/mods/2) organizes storage by shelf row, remembers assigned item types and lets the player replace an empty row's assignment. Its author also describes drink-shelf sorting.
+- [Thai localization by Arai / MisakiArai](https://www.nexusmods.com/maidcafesimulator/mods/1?tab=description) translates the game into Thai. It is a fan translation, not a developer language pack.
 
-| Advertised feature | What it means in practice |
-| --- | --- |
-| You inherit a rundown cafe | The starting space is a fixer-upper, not a finished venue |
-| A kemonomimi girl changes everything | A story character who shifts the state of the cafe |
-| Five maids, each with a secret | Five named staff members with personal storylines |
-| Three Maidchelin stars | The headline progression goal |
-| Mixing drinks and serving customers | The core hands-on loop |
-| Scanning receipts and counting change | A manual checkout routine |
-| Ordering ingredients by phone with a Maidroid courier | Restocking handled through an in-game phone call |
+## SortIT installation, according to its author
 
-That list is the whole advertised scope. It is worth reading twice, because a lot of what people search for around this game — full recipe lists, exact prices, maid stat tables, ending conditions, codes — is not on the store page at all. The description tells you the verbs, not the numbers.
+1. Install MelonLoader with IL2CPP support, selecting MaidCafeSimulator.exe. The author specifies v0.6.x or newer.
+2. Run the game once to create the loader folders, then close it.
+3. Place SortIT.dll in the game's Mods folder and relaunch. The author says the MelonLoader console confirms loading.
 
-## The core loop, as described
+These are the author's Windows instructions, not a procedure tested by this wiki. The Thai mod has its own dependency and Mods/Plugins folder instructions; use its page rather than assuming all mods install identically.
 
-The game is first person and management-focused, which shapes how you should expect to play. You are not watching a spreadsheet; you are standing in the room doing the work. Based on the advertised features, a shift breaks into a few repeating phases:
+## Check compatibility after patches
 
-First, prep. You take stock of what you have, then use the phone to order ingredients, which arrive via Maidroid courier. Running out mid-shift is the obvious failure state, so ordering before service starts matters more than ordering quickly.
+SortIT's page shows an update on 17 October 2026, preceding the game's v1.21 and v1.21.12 updates. Compatibility with those newer builds has not been established here, nor has macOS installation. Check the author's current requirements and posts for your installed version.
 
-Second, service. You mix drinks and serve customers. In first-person management games, the bottleneck is usually your own movement and timing rather than a hidden difficulty curve, so layout familiarity tends to matter more than raw speed.
+## Sources
 
-Third, checkout. Scanning receipts and counting change is called out separately from serving, which suggests it is its own task rather than something that happens automatically. Treat it as a step you have to actively complete, not an animation that resolves itself.
-
-Fourth, progression. Three Maidchelin stars is the stated goal, and five maids with individual secrets implies that staff relationships and story beats run alongside the business metrics.
-
-## Management advice that does not require invented data
-
-Because the store page publishes no recipe list, no item prices, no maid stat tables, and no code system, any guide that hands you exact numbers is either working from datamined files or making things up. Neither belongs in a planning article. What you can do instead is apply general practice and let the game tell you the rest.
-
-Learn one drink at a time. In any mixing-based simulator, muscle memory beats a reference sheet, and a small reliable repertoire serves more customers than a wide shaky one.
-
-Order before you need to. The Maidroid courier exists so you can restock without leaving the floor, but deliveries are not instant in any management game worth playing. Watch your shelves during quiet moments, not during a rush.
-
-Count change deliberately. If counting change is a distinct advertised task, it is probably also a place where mistakes cost you. Slow down slightly at the register rather than trying to beat a clock you have not measured yet.
-
-Watch the maids as people, not just staff. Five maids, five secrets is a story promise. If a maid's dialogue shifts, that is likely a signal worth following up on rather than background flavor.
-
-Take the cafe's condition seriously early. Inheriting a rundown space means the environment itself is a variable. Improving the room is usually a prerequisite for raising your rating, not a cosmetic side project.
-
-## What community guides claim, and how to treat them
-
-Third-party guides and wiki pages have started filling in details the developer has not published: drink combinations, pricing advice, staff preferences, and star requirements. Treat all of it as secondary observation. Some of it may be accurate and tested; some of it may be one player's experience generalized into a rule. When a guide gives you a specific number, check whether it cites the game itself or the official page. If it cites neither, verify it in your own save before you build a strategy around it.
-
-The most reliable verification method is simple: play the relevant section, watch what the game tells you, and compare. Recipe behavior, register handling, and star progression are all observable in-game. The [Steam store page](https://store.steampowered.com/app/3232690/) remains the authority for what the game is advertised to do, and it has not been updated to include mechanical tables.
-
-## What is genuinely not documented
-
-To be plain about it: there is no published recipe list, no item price sheet, no maid stat table, no ending guide, and no code system from the developer. There are no official hotkeys documented on the store page, no drop rates, and no patch notes referenced there either. The store page also does not describe how long a full playthrough takes or how many endings exist.
-
-If you see a page promising a complete recipe database or a working code list, ask where the data came from. Absent an official source, that information is either extracted from game files or fabricated, and both carry the same problem for a player: it may not survive the next update.
-
-## FAQ
-
-**When did Maid Cafe Simulator release?**
-7 October 2026, according to the official Steam listing for app 3232690.
-
-**Who developed it?**
-Accelix and SCON are listed as the developers on Steam.
-
-**Is it first person?**
-Yes. The store description frames it as first-person cafe management where you mix drinks, serve customers, and handle the register yourself.
-
-**How many maids are there?**
-Five, and the description says each one has a secret.
-
-**What is the main goal?**
-Earning three Maidchelin stars while running the inherited cafe.
-
-**Does it have codes or a recipe list online?**
-No official code system or recipe list is published on the store page. Community guides exist, but they are third-party observations, so verify anything specific in your own game before relying on it.
+- [SortIT author page](https://www.nexusmods.com/maidcafesimulator/mods/2)
+- [Thai localization author page](https://www.nexusmods.com/maidcafesimulator/mods/1?tab=description)
+- [Official Steam listing](https://store.steampowered.com/app/3232690/?l=english)
